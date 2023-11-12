@@ -1,0 +1,147 @@
+@import './global.css';
+
+.initial_landing {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.initial_landing img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: left; */
+}
+.container_slider_top {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(10, 10, 10, 56%);  /* fallback for old browsers */
+    overflow: hidden;   
+}
+.container_slider_top ul{
+    display: flex;
+    flex-direction: column;
+    animation: cambio 15s infinite alternate linear;
+    width: 100%;
+    height: 300%;
+}
+.container_slider_top li{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20vh;
+    align-items: flex-end;
+    gap: 20px;
+
+}
+.container_slider_top li h2 {
+    text-align: right;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.8rem;
+    letter-spacing: 1.2px;
+}
+.tittle_blue {
+    color: var(--secundary-color);
+}
+.tittle_green {
+    color: var(--tertiary-color);
+}
+.tittle_pink {
+    color: var(--quaternary-color);
+}
+.container_slider_top li p {
+    width: 80%;
+    text-align: right;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--white-page);
+}
+@keyframes cambio{
+    0%{margin-top: 0;}
+    40%{margin-top: 0;}
+    
+    45%{margin-top: -100vh;}
+    70%{margin-top: -100vh;}
+
+    
+    75%{margin-top: -200vh;}
+    100%{margin-top: -200vh;}
+    
+}
+
+.footer_initial_landing {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 8px 0 40px;
+}
+
+.get_budget {
+    width: 320px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: solid 2px var(--primary-color);
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+}   
+
+.get_budget a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--white-page);
+}
+
+.tope_etymology {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tope_etymology p {
+    font-size: 0.8rem;
+    color: var(--white-page);
+    font-family: 'Bruno Ace', sans-serif;
+    letter-spacing: 0.6px;
+}
+.tope_etymology p strong {
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

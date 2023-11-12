@@ -1,0 +1,48 @@
+@import './global.css';
+
+.header_content {
+    width: 80%;
+    max-width: 800px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header_left {
+    width: auto;
+    height: 60px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+   
+}
+.header_left img {
+    width: 24px;
+    height: 28px;
+    object-fit: cover;
+    margin-bottom: 4px;
+}
+.header_left p {
+    font-family: 'Bruno Ace', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1.6px;
+    color: var(--white-page);
+}
+.header_right {
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.header_right a {
+    text-decoration: none;
+    color: var(--white-page);
+    padding: 4px 12px;
+    border: solid 2px var(--primary-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+}

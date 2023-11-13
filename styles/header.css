@@ -37,7 +37,7 @@
     align-items: center;
 
 }
-.header_right a {
+.buton_contact{
     text-decoration: none;
     color: var(--white-page);
     padding: 4px 12px;
@@ -45,4 +45,12 @@
     border-radius: 8px;
     font-size: 1rem;
     letter-spacing: 1.2px;
+    transition: all 0.5s ease-in-out;
+}
+.contact_addedt_menu {
+    color: #ffffff;
+    padding: 6px 16px;
+    border: solid 1px #ffffff;
+    transition: all 0.5s ease-in-out;
+
 }

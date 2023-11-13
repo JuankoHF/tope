@@ -1,0 +1,102 @@
+@import './global.css';
+
+.strategy {
+    width: 100%;
+    height: auto;
+    padding-top: 48px;
+    background-color: var(--section-clear);  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content_strategy {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content_strategy h2 {
+    font-size: 1.8rem;
+    color: var(--white-page);
+    margin-bottom: 48px;
+}
+.content_strategy h2 strong {
+    font-family: 'Bruno Ace', sans-serif;
+    color: var(--primary-color);
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+}
+
+.step_to_step {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.step {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.step_flex_left,
+.step_flex_right {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.step_flex_left h3,
+.step_flex_right h3 {
+    font-size: 3.4rem;
+    letter-spacing: 1.2px;
+    font-family: 'Roboto Slab', serif;
+}
+.step_flex_left h4,
+.step_flex_right h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--white-page);
+}
+.step img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.step p {
+    width: 35%;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    color: var(--white-page);
+}
+.step_two p, .step_four p{
+    text-align: right;
+}
+.step_one h3 {
+    color: var(--secundary-color);
+}
+.step_two h3 {
+    color: var(--quaternary-color);
+}
+.step_three h3 {
+    color: var(--primary-color);
+}
+.step_four h3 {
+    color: var(--tertiary-color);
+}

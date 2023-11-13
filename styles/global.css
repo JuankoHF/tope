@@ -4,8 +4,8 @@
     --secundary-color: #00c1b5;
     --tertiary-color: #bcfa4a;
     --quaternary-color: #ff58a6;
-    --section-dark: #192b3d;
-    --detalle: rgb(161, 156, 156);
+    --section-dark: #181f27;
+    --section-clear: #323d49;
     --detalle-strong: rgb(65, 65, 65);
     
 }
@@ -18,7 +18,7 @@
 body {
     min-height: 100vh;
     width: 100vw;
-    background-color: var(--landing-back);
+    background-color: var(--section-dark);
 }
 html {
     font-size: 62.5%;

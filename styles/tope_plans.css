@@ -1,0 +1,196 @@
+@import './global.css';
+
+.tope_plans {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_tope_plans {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--quaternary-color);
+    position: relative;
+}
+
+.header_plans_left {
+    width: 40%;
+    height: 120px;
+    padding: 30px 20px;
+    background-color: var(--tertiary-color);
+    clip-path: polygon(84% 0, 100% 54%, 63% 100%, 0 77%, 0 0);
+}
+.header_plans_left p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+}
+
+.header_plans_center {
+    width: 44%;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 22%);
+    z-index: 5;
+    padding: 30px 20px 0 36px;
+    background-color: black;
+    clip-path: polygon(33% 6%, 86% 17%, 100% 50%, 75% 100%, 20% 100%, 0 68%);
+}
+.header_plans_center h3 {
+    font-size: 1.8rem;
+    color: var(--white-page);
+}
+
+.header_plans_center p{
+    font-size: 1.2rem;
+    color: var(--white-page);
+    font-weight: 400;
+    opacity: 0.8;
+}
+.header_plans_right {
+    width: 40%;
+    height: 120px;
+    padding: 20px 8px 0 46px;
+    background-color: var(--secundary-color);
+    clip-path: polygon(8% 0, 100% 0, 100% 100%, 30% 100%, 0 61%);
+}
+
+.header_plans_right p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+    text-align: right;
+}
+
+.plans_content {
+    width: 100%;
+    height: auto;
+    margin: 48px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.card_plan {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: black;
+    border: solid 1px var(--section-clear);
+    border-radius: 8px;
+}
+.content_flex_card {
+    width: 100%;
+    height: auto;
+    display: flex;    
+}
+.description_contaimer {
+    width: 70%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 16px 0;
+    gap: 8px;
+}
+.description_contaimer h3 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+.description_contaimer p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--white-page);
+}
+.description_contaimer  span {
+    display: block;
+    width: 100%;
+    height: 20px;
+}
+
+.description_contaimer h2 {
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+.description_contaimer h2 strong{
+    font-size: 2.4rem;
+}
+.image_card {
+    width: 30%;
+    height: 230px;
+    overflow: hidden;
+}
+.image_card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.description_card {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 16px;
+    gap: 4px;
+}
+.description_chequed {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+.description_chequed span {
+    width: 16px;
+    height: 16px;
+    background-image: url(../icons/check.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description_chequed p {
+    font-size: 1rem;
+    color: var(--white-page);
+}
+.more_info {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 16px;
+    border-top: solid 1px var(--section-clear) ;
+}
+.more_info a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--white-page);
+    cursor: pointer;
+}
+.more_info a span {
+    display: block;
+    width: 20px;
+    height: 28px;
+    background-image: url(../icons/arrow-left-green.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

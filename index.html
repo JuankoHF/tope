@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/initial_landing.css">
     <link rel="stylesheet" href="styles/tope_identity.css">
     <link rel="stylesheet" href="styles/strategy.css">
+    <link rel="stylesheet" href="styles/tope_plans.css">
     <title>Documento</title>
 </head>
 <body>
@@ -26,29 +27,49 @@
         </div>
     </header>
     <main>
-        <section class="initial_landing">
+        <section class="initial_landing" id="home">
 
             <img src="./images/fondo_portatil.jpg" alt="">
             <!-- <img src="./images/fondo_portatil_horizontal.jpg" alt=""> -->
             <div class="container_slider_top">
                 <ul>
                     <li>
-                        <h2 class="tittle_blue">DISEÑO Y DESARROLO WEB</h2>
+                        <h2 class="tittle_blue" id="h2Web">DISEÑO Y DESARROLO WEB</h2>
                         <p>creamos experiencias a gusto y medida de tus exigencias, ¡déjate ver! </p>
                     </li>
                     <li>
-                        <h2 class="tittle_pink">OPTIMIZACIÓN DE REDES SOCIALES</h2>
+                        <h2 class="tittle_pink" id="h2Social">OPTIMIZACIÓN DE REDES SOCIALES</h2>
                         <p>compartimos tu pasión, publicamos tu visión, socializamos tu éxito.</p>
                     </li>
                     <li>
-                        <h2 class="tittle_green">POSICIONAMIENTO SEO</h2>
+                        <h2 class="tittle_green" id="h2Seo">POSICIONAMIENTO SEO</h2>
                         <p>buscamos tu lugar en la red, llevamos a tus clientes hasta allí.</p>
                     </li>
                     
                 </ul>
             </div>
+            <div class="content_sliders_points">
+                <ul>
+                    <li class="contente_color_points">
+                        <span  class="point point_blue active_pointSlider"></span>
+                        <span class="point point_pink"></span>
+                        <span class="point point_green"></span>
+                    </li>
+                    <li class="contente_color_points">
+                        <span  class="point point_blue"></span>
+                        <span class="point point_pink active_pointSlider"></span>
+                        <span class="point point_green"></span>
+                    </li>
+                    <li class="contente_color_points">
+                        <span  class="point point_blue"></span>
+                        <span class="point point_pink"></span>
+                        <span class="point point_green active_pointSlider"></span>
+                    </li>
+                </ul>
+                
+            </div>
 
-            <div class="footer_initial_landing">
+            <div class="footer_initial_landing" id="toAbout">
                 <div class="get_budget">
                     <span></span>
                     <a href="">
@@ -81,16 +102,19 @@
                     <span class="icon_menu"></span>
                 </div>
 
-                <ul class="content_item_menu">
-                    <li class="list activate"><a href="#init_home"><div class="content_span_item"><span class="icon_item house"></span></div></span><h3>INICIO</h3></a></li>
-                    <li class="list"><a href="#init_about"><div class="content_span_item"><span class="icon_item abaut"></span></div></span><h3>SOBRE MI</h3></a></li>
-                    <li class="list"><a href="#init_porfolio"><div class="content_span_item"><span class="icon_item porfolio"></span></div></span><h3>PORTAFOLIO</h3></a></li>
-                    <li class="list"><a href="#init_contact"><div class="content_span_item"><span class="icon_item contact"></span></div></span><h3>CONTACTO</h3></a></li>
-                </ul>
+               
             </div>
+            <ul class="content_item_menu">
+                <li class="list"><a class="item_menu list1" href="#home">Inicio</a></li>
+                <li class="list"><a class="item_menu list2" href="#toAbout">Sobre <strong translate="no">TOPE</strong></a></li>
+                <li class="list"><a class="item_menu list3" href="#toStrategy">Estrategia</a></li>
+                <li class="list"><a class="item_menu list4" href="#toPlans">Planes</a></li>
+                <li class="list"><a class="item_menu list5" href="#toCreator">Sobre el Creador</a></li>
+                <li class="list"><a class="item_menu list6" href="">Contacto</a></li>
+            </ul>
             <div class="content_tope_description">
                 <h1>
-                    Somos <strong> TOPE</strong>, empresa de desarrollo y gestión de 
+                    Somos <strong translate="no"> TOPE</strong>, empresa de desarrollo y gestión de 
                     herramientas digitales para el posicionamiento en la red.
                 </h1>
 
@@ -127,7 +151,7 @@
             </div>
 
             
-            <div class="footer_sections">
+            <div class="footer_sections" id="toStrategy">
                 <div class="get_budget">
                     <span></span>
                     <a href="">
@@ -144,7 +168,7 @@
            
         </section>
 
-        <section class="strategy">
+        <section class="strategy" id="topStrategy">
             <div class="content_strategy">
                 <h2>En <strong>TOPE</strong>, lo hacemos asi:</h2>
 
@@ -178,7 +202,7 @@
                         </div>
                         <img src="./images/develop-to-step.jpg" alt="ordenador con graficas">
                         <p>
-                            En TOPE nos encargaremos de desarrollar la imagen del negocio 
+                            En <strong translate="no">TOPE</strong> nos encargaremos de desarrollar la imagen del negocio 
                             tal y como convengamos. Pondremos las herramientas digitales en sus manos.
                         </p>
                     </div>
@@ -195,7 +219,159 @@
                     </div>
                 </div>
             </div>
-            <div class="footer_sections">
+            <div class="footer_sections" id="toPlans">
+                <div class="get_budget">
+                    <span></span>
+                    <a href="">
+                        Estamos preparados para ayudarte. PIDE PRESUPUESTO
+                    </a>
+                </div>
+
+                <div class="tope_etymology">
+                    <p>
+                        <strong>T</strong>ácticas <strong>O</strong>perativas de <strong>P</strong>osicionamiento <strong>E</strong>mpresarial
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tope_plans" id="plans">
+            <div class="header_tope_plans">
+                <div class="header_plans_left">
+                    <p>Tácticas para el crecimiento online</p>
+                </div>
+                <div class="header_plans_center">
+                    <h3>NUESTROS PLANES</h3>
+                    <P>Al alcance de un click</P>
+                </div>
+                <div class="header_plans_right">
+                    <p>Estrategias orientadas a la productividad digital</p>
+                </div>
+            </div>
+
+            <div class="plans_content">
+                <div class="card_plan">
+                    <div class="content_flex_card">
+                        <div class="description_contaimer">
+                            <h3>Posicionamiento SEO</h3>
+                            <p>
+                                Consigue tener más relevancia en la red, más visitas virtuales, más clientes reales.
+                            </p>
+                            <span></span>
+                            <p>desde</p>
+                            <h2><strong>80 €</strong>/mes</h2>
+                        </div>
+                        <div class="image_card">
+                            <img src="./images/for-card-seo.jpg" alt="imagen colorida">
+                        </div>
+                    </div>
+                    <div class="description_card">
+                        <div class="description_chequed">
+                            <span></span> <p>5 palabras claves</p>                            
+                        </div>
+                        <div class="description_chequed">
+                            <span></span> <p>Monitoreo y optimización del sitio web</p>
+                        </div>
+                        <div class="description_chequed">
+                            <span></span> <p>informe de rendimiento mensual</p>
+                        </div>
+                    </div>
+                    <div class="more_info">
+                        <a href="./pages/plans.html">más información <span></span></a>
+                    </div>
+                </div>
+                <div class="card_plan">
+                    <div class="content_flex_card">
+                        <div class="description_contaimer">
+                            <h3>Promociones con Google Ads</h3>
+                            <p>
+                                Opten resultados de inmediato activando las mejores herramientas en tu perfil de Google.
+                            </p>
+                            <span></span>
+                            <p>desde</p>
+                            <h2><strong>130 €</strong>/mes</h2>
+                        </div>
+                        <div class="image_card">
+                            <img src="./images/for-card-ads.jpg" alt="imagen colorida">
+                        </div>
+                    </div>
+                    <div class="description_card">
+                        <div class="description_chequed">
+                            <span></span> <p>Campaña promocional activa en menos de 48h</p>                            
+                        </div>
+                        <div class="description_chequed">
+                            <span></span> <p>Estudio de campaña, estudio semántico, estudio de alcance</p>
+                        </div>
+                        <div class="description_chequed">
+                            <span></span> <p>70 € de descuento a partir de campañas superiores a 200 €/mes</p>
+                        </div>
+                    </div>
+                    <div class="more_info">
+                        <a href="./pages/plans.html#to_ads">más información <span></span></a>
+                    </div>
+                </div>
+                <div class="card_plan">
+                    <div class="content_flex_card">
+                        <div class="description_contaimer">
+                            <h3>Optimización de Redes Sociales</h3>
+                            <p>
+                                Mantén tu negocio cerca de tus clientes, dale un impulso a tu marca y mejora tus resultados. 
+                            </p>
+                            <span></span>
+                            <p>desde</p>
+                            <h2><strong>149 €</strong>/mes</h2>
+                        </div>
+                        <div class="image_card">
+                            <img src="./images/for-card-socialM.jpg" alt="imagen colorida">
+                        </div>
+                    </div>
+                    <div class="description_card">
+                        <div class="description_chequed">
+                            <span></span> <p>A partir de 2 publicaciones semanales</p>                            
+                        </div>
+                        <div class="description_chequed">
+                            <span></span> <p>Diseño de publicaciones segun público receptor</p>
+                        </div>
+                        <div class="description_chequed">
+                            <span></span> <p>Informe de rendimiento mensual </p>
+                        </div>
+                    </div>
+                    <div class="more_info">
+                        <a href="./pages/plans.html#to_social">más información <span></span></a>
+                    </div>
+                </div>
+                <div class="card_plan">
+                    <div class="content_flex_card">
+                        <div class="description_contaimer">
+                            <h3>Diseño y Desarrolo de Página Web</h3>
+                            <p>
+                                Haz tu web a la medida de tus expectativas. Consigue un dominio y muestra tu marca.
+                            </p>
+                            <span></span>
+                            <p>desde</p>
+                            <h2><strong>399 €</strong>/mes</h2>
+                        </div>
+                        <div class="image_card">
+                            <img src="./images/for-card-web.jpg" alt="imagen colorida">
+                        </div>
+                    </div>
+                    <div class="description_card">
+                        <div class="description_chequed">
+                            <span></span> <p>Soporte online, monitoreo y mantenimiento de la web</p>                            
+                        </div>
+                        <div class="description_chequed">
+                            <span></span> <p>Diseño personalizado segun publico receptor y visión de negocio</p>
+                        </div>
+                        <div class="description_chequed">
+                            <span></span> <p>20% en Optimización de Redes Sociales y Posicionamiento SEO</p>
+                        </div>
+                    </div>
+                    <div class="more_info">
+                        <a href="./pages/plans.html#to_web">más información <span></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_sections" id="">
                 <div class="get_budget">
                     <span></span>
                     <a href="">

@@ -31,12 +31,14 @@
     transition: all 0.5s ease-in-out;
 }
 
-.nav_identity a {
+.nav_identity a,
+.nav_identity_pages a {
     text-decoration: none;
     width: 20px;
     height: 20px;
 }
-.nav_identity a span {
+.nav_identity a span,
+.nav_identity_pages a span {
     width: 100%;
     height: 100%;
     display: block;

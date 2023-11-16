@@ -10,6 +10,33 @@
     gap: 8px;
     transition: all 0.5s ease-in-out;
 }
+.content_item_plans_menu {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    background-color: var(--white-page);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 16px;
+    gap: 8px;
+    z-index: 8;
+    border-radius: 0 0 0 12px;
+    clip-path: inset(0 0 100% 0);
+    transition: all 0.3s ease-in-out;
+}
+.ative_plans_item_menu {
+    clip-path: inset(0 0 0 0);
+    transition: all 0.6s ease-in-out;
+}
+.active_plans_menu_icon {
+    transform: rotateX(180deg);
+    transition: all 0.6s ease-in-out;
+}
+
 body {
     background-color: var(--section-clear);
 }

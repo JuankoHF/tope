@@ -78,6 +78,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    overflow: hidden;
 }
 .card_plan {
     width: 90%;

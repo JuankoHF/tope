@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
 }
 .content_jnk_description h2 {
     font-size: 1.8rem;

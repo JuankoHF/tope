@@ -1,0 +1,178 @@
+@import './global.css';
+
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60px;
+    background-color: black;
+}
+
+.content_form {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content_form h2 {
+    font-size: 1.8rem;
+    color: var(--white-page);
+}
+
+.orange {
+    color: var(--primary-color);
+}
+  
+.form-container {
+    max-width: 600px;
+    margin: 40px 0;
+    background-color: var(--section-clear);
+    padding: 30px;
+    border-left: 5px solid var(--primary-color);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+}
+  
+.heading {
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+  
+.form-container .form .input {
+    color: #87a4b6;
+    width: 100%;
+    background-color: var(--section-dark);
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    border-left: 1px solid transparent;
+}
+  
+.form-container .form .input:focus {
+    border-left: 5px solid var(--primary-color);
+}
+  
+.form-container .form .textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: var(--primary-color);
+    font-weight: bold;
+    resize: none;
+    max-height: 150px;
+    margin-bottom: 20px;
+    border-left: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+  
+.form-container .form .textarea:focus {
+    border-left: 5px solid var(--primary-color);
+}
+  
+.form-container .form .button-container {
+    display: flex;
+    gap: 10px;
+}
+  
+.form-container .form .button-container .send-button {
+    flex-basis: 70%;
+    background: var(--primary-color);
+    padding: 10px;
+    color: var(--white-page);
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+  
+.form-container .form .button-container .send-button:hover {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+  
+.footer_contact{
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 60px;
+
+}
+.content {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+.content a {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--white-page);
+    opacity: 0.8;
+    text-decoration: none;
+}
+.content_signature {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 12px;
+}
+.content_signature p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white-page);
+}
+.content_signature p strong {
+    font-family: 'Bruno Ace', sans-serif;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+.icons_company {
+    width: 70%;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+.icons_company img {
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+}
+.jnk {
+    width: 50px;
+    height: min-content;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+}

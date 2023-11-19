@@ -137,9 +137,9 @@
     opacity: 1;
     padding-left: 8px;
     padding-right: 4px;
-    border-radius:  0 0 0 4px;
-    border-bottom: solid 2px black;
-    border-left: solid 2px black;
+    /* border-radius:  0 0 0 4px; */
+    border-bottom: solid 2px var(--primary-color);
+    /* border-left: solid 2px black; */
     font-weight: bold;
 }
 

@@ -22,3 +22,15 @@ window.sr =ScrollReveal();
         origin: 'left',
         distance: '-100px'
     });
+
+    sr.reveal('.content_tope_contact', {
+        duration: 3000,
+        origin: 'left',
+        distance: '300px'
+    });
+
+    sr.reveal('.tope_contact_left', {
+        duration: 2500,
+        origin: 'bottom',
+        distance: '200px'
+    });

@@ -26,10 +26,10 @@ window.addEventListener('scroll', function() {
     let positiontopStrategy = animatetopStrategy.getBoundingClientRect().top;
     let animateplans = document.getElementById('plans');
     let positionplans = animateplans.getBoundingClientRect().top;
-    // let animateScroledStop = document.getElementById('scroledStop');
-    // let positionScroledStop = animateScroledStop.getBoundingClientRect().top;
-    // let animateScroledStop = document.getElementById('scroledStop');
-    // let positionScroledStop = animateScroledStop.getBoundingClientRect().top;
+    let animatecreator = document.getElementById('creator');
+    let positioncreator = animatecreator.getBoundingClientRect().top;
+    let animatecontact = document.getElementById('toContact');
+    let positioncontact = animatecontact.getBoundingClientRect().top;
     
     let scrollTop = window.innerHeight;
     let list1 = document.querySelector(".list1");
@@ -39,9 +39,6 @@ window.addEventListener('scroll', function() {
     let list5 = document.querySelector(".list5");
     let list6 = document.querySelector(".list6");
 
-
-    console.log(positionScroledStop);
-    console.log(scrollTop/3, "pantalla");
 
     if(positionScroledStop <= 60) {
         navIdentityScroll.classList.add("fixed_nav_identity");
@@ -93,6 +90,23 @@ window.addEventListener('scroll', function() {
         list6.classList.remove("active_position_menu");
     }
 
+    if (positioncreator < scrollTop/3) {
+        list5.classList.add("active_position_menu");
+        list1.classList.remove("active_position_menu");
+        list2.classList.remove("active_position_menu");
+        list3.classList.remove("active_position_menu");
+        list4.classList.remove("active_position_menu");
+        list6.classList.remove("active_position_menu");
+    }
+
+    if (positioncontact < scrollTop/3) {
+        list6.classList.add("active_position_menu");
+        list1.classList.remove("active_position_menu");
+        list2.classList.remove("active_position_menu");
+        list3.classList.remove("active_position_menu");
+        list4.classList.remove("active_position_menu");
+        list5.classList.remove("active_position_menu");
+    }
 
 })
 

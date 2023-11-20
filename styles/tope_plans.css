@@ -335,3 +335,36 @@
         display: none;
     }
 }
+@media screen and (min-width: 1000px) {
+    .header_tope_plans {
+        width: 100%;
+        height: 220px;
+    }
+    .header_plans_left {
+        height: 220px;
+        padding: 48px 90px;
+    }
+
+    .header_plans_left p {
+        font-size: 2.6rem;
+    }
+    .header_plans_center {
+        height: 220px;
+        padding: 60px 48px 0 130px;
+    }
+
+    .header_plans_center h3 {
+        font-size: 3rem;
+    }
+    .header_plans_center p {
+        font-size: 2.6rem;
+        margin-top: 12px;
+    }
+    .header_plans_right {
+        height: 220px;
+        padding: 48px 60px 0 108px;
+    }
+    .header_plans_right p {
+        font-size: 2.6rem;
+    }
+}

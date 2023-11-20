@@ -328,3 +328,15 @@
         height: 260px;
     }
 }
+@media screen and (min-width: 1000px) {
+    .content_tope_description {
+        margin-top: 60px;
+    }
+
+    .content_tope_contact {
+        margin-top: 48px;
+    }
+    .footer_sections {
+        margin: 60px 0;
+    }
+}

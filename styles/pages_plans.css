@@ -38,7 +38,7 @@
 }
 
 body {
-    background-color: var(--section-clear);
+    background-color: var(--section-clear) !important;
 }
 .section {
     width: 100%;

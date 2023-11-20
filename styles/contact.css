@@ -107,9 +107,10 @@
 .footer_contact{
     width: 100%;
     height: auto;
-    margin-top: 24px;
+    padding-top: 48px;
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 .footer {
     width: 90%;
@@ -130,7 +131,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 12px;
-    margin-bottom: 16px;
+    margin-bottom: 28px;
 }
 .content a {
     font-size: 1.2rem;

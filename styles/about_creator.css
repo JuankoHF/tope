@@ -118,3 +118,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media screen and (min-width: 400px) {
+    .text_description {
+        padding: 24px 16px 16px;
+    }
+    .button_more_information {
+        margin-top: 20px;
+    }
+}

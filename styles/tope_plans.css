@@ -195,3 +195,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media screen and (min-width: 400px) {
+    .header_plans_left {
+        padding: 30px 28px;
+    }
+    .header_plans_center {
+        padding: 30px 20px 0 44px;
+    }
+    .header_plans_right {
+        padding: 20px 16px 0 46px;
+    }
+}

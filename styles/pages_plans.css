@@ -125,7 +125,7 @@ body {
 .section2 {
     padding-top: 10px;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (min-height: 510px){
     .title_plans {
         width: 240px;
         height: 160px;

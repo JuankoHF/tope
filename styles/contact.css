@@ -177,7 +177,7 @@
     background-color: var(--primary-color);
     border-radius: 6px;
 }
-@media screen and (min-width:700px) {
+@media screen and (min-width:700px) and (min-height: 510px){
     .content_form h2 {
         font-size: 2.6rem;
     }

@@ -250,7 +250,7 @@
     gap: 30px;
     margin: 20px 0 40px;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (min-height: 510px) {
     .nav_identity a, .nav_identity_pages a {
         width: 28px;
         height: 28px;
@@ -306,5 +306,25 @@
     .footer_sections {
         gap: 40px;
         margin: 40px 0 60px;
+    }
+}
+
+@media screen and (min-width: 830px) and (max-height: 500px)  {
+    .content_tope_description {
+        margin-top: 28px;
+    }
+    .content_tope_description h1 {
+        margin-bottom: 16px;
+    }
+    .content_tope_description p {
+        margin-bottom: 8px;
+    }
+    .tope_contact_right {
+        width: 48%;
+        padding-top: 48px;
+        overflow: hidden;
+    }
+    .tope_contact_right img {
+        height: 260px;
     }
 }

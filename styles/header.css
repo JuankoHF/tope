@@ -54,3 +54,19 @@
     transition: all 0.5s ease-in-out;
 
 }
+@media screen and (min-width: 700px) {
+    .header_left img {
+        width: 30px;
+        height: 36px;
+        object-fit: cover;
+        margin-bottom: 4px;
+    }
+    .header_left p {
+        font-size: 2.2rem;
+        letter-spacing: 1.8px;
+    }
+
+    .buton_contact {
+        font-size: 1.2rem;
+    }
+}

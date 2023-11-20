@@ -127,3 +127,42 @@
         margin-top: 20px;
     }
 }
+@media screen and (min-width: 700px) {
+    .about_creator {
+        padding-top: 60px;
+    }
+    .content_jnk_description h2 {
+        font-size: 2.6rem;
+        margin-bottom: 40px;
+    }
+    .content_jnk_description h2 strong {
+        font-size: 3rem;
+        letter-spacing: 1.8px;
+    }
+    .content_jnk_description h3 {
+        font-size: 1.8rem;
+        margin-bottom: 32px;
+        max-width: 372px;
+    }
+    .card_creator_description {
+        width: 80%;
+        height: 420px;
+    }
+    .text_description {
+        padding: 20px 16px 0px;
+    }
+    .text_description p {
+        font-size: 1.4rem;
+    }
+    .button_more_information {
+        width: 80%;
+        height: 32px;
+        font-size: 1.4rem;
+        border-radius: 8px;
+        gap: 6px;
+    }
+    .button_more_information span {
+        width: 16px;
+        height: 20px;
+    }
+}

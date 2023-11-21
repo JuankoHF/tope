@@ -148,3 +148,32 @@
         margin-bottom: 40px;
     }
 }
+@media screen and (min-width: 1900px) {
+    .strategy {
+        padding-top: 80px;
+    }
+    .content_strategy h2 {
+        font-size: 2.8rem;
+        margin-bottom: 80px;
+        letter-spacing: 0.8px;
+    }
+    .content_strategy h2 strong {
+        font-size: 3.2rem;
+        letter-spacing: 1.8px;
+    }
+    .step_flex_left h3, .step_flex_right h3 {
+        font-size: 5.4rem;
+        letter-spacing: 1.6px;
+    }
+    .step_flex_left h4, .step_flex_right h4 {
+        font-size: 2.8rem;
+        letter-spacing: 1.2px;
+    }
+    .step img {
+        width: 120px;
+        height: 120px;
+    }
+    .step p {
+        font-size: 1.6rem;
+    }
+}

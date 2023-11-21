@@ -465,3 +465,106 @@
         padding: 50px 100px 0 158px;
     }
 }
+@media screen and (min-width: 1900px) {
+    .header_tope_plans {
+        width: 100%;
+        height: 270px;
+    }
+    .header_plans_left {
+        width: 36%;
+        max-width: 700px;
+        height: 270px;
+        padding: 60px 204px;
+    }
+    .header_plans_left p {
+        font-size: 3rem;
+    }
+    .header_plans_center {
+        width: 38%;
+        max-width: 730px;
+        height: 270px;
+        padding: 90px 87px 0 186px;
+        left: calc(50% - 20%);
+    }
+    .header_plans_center h3 {
+        font-size: 3.8rem;
+        letter-spacing: 1.2px;
+    }
+    .header_plans_center p {
+        font-size: 3rem;
+        margin-top: 36px;
+    }
+    .header_plans_right {
+        width: 36%;
+        max-width: 700px;
+        height: 270px;     
+        padding: 60px 190px 0 150px;
+    }
+    .header_plans_right p {
+        font-size: 3rem;
+    }
+
+    .plans_content {
+        width: auto;
+        gap: 60px;
+        margin: 100px 0 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .card_plan {
+        width: 400px;
+    }
+    .description_contaimer {
+        height: 300px;
+        padding: 24px 12px 0 24px;
+        gap: 12px;
+    }
+    .description_contaimer h3 {
+        font-size: 2.4rem;
+    }
+    .description_contaimer p {
+        font-size: 1.6rem;
+    }
+    .description_contaimer span {
+        height: 20px;
+    }
+    .description_contaimer h2 strong {
+        font-size: 3.4rem;
+    }
+    .image_card {
+        width: 30%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .description_card {
+        width: 100%;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 24px 20px;
+        gap: 8px;
+    }
+    .description_chequed {
+        gap: 10px;
+    }
+    .description_chequed span {
+        width: 24px;
+        height: 24px;
+    }
+    .description_chequed p {
+        font-size: 1.4rem;
+    }
+    .more_info {
+        height: 60px;
+        padding-right: 24px;
+    }
+    .more_info a {
+        font-size: 1.6rem;
+    }
+    .more_info a span {
+        width: 28px;
+        height: 37px;
+    }
+}

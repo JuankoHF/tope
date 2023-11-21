@@ -344,10 +344,55 @@
     }
     .initial_landing img {
         width: 40%;
-        height: 78%;
+        height: 80%;
+        margin-bottom: 10%;
     }
 }
+@media screen and (min-width: 1900px) {
+   
+    .initial_landing img {
+        width: 40%;
+        height: 90%;
+        margin-bottom: 10%;
+    }
+    .container_slider_top li {
+        padding: 30vh 10% 0;
+        gap: 60px;
+    }
+    .container_slider_top li h2 {
+        font-size: 4.4rem;
+        letter-spacing: 1.8px;
+    }
+    .container_slider_top li p {
+        width: 50%;
+        font-size: 3rem;
+        letter-spacing: 1px;
+    }
+    .footer_initial_landing {
+        gap: 40px;
+        padding: 16px 0 60px;
+    }
 
+    .get_budget {
+        width: 800px;
+        gap: 28px;
+        height: 40px;
+    }
+    .get_budget span {
+        width: 150px;
+        height: 2px;
+        background-color: var(--white-page);
+        margin-top: 10px;
+    }
+    .get_budget a {
+        font-size: 1.8rem;
+    }
+    .tope_etymology p {
+        font-size: 1.4rem;
+        letter-spacing: 1.6px;
+    }
+
+}
 
 
 

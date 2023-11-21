@@ -204,3 +204,19 @@ body {
         margin: 60px 0;
     }
 }
+@media screen and (min-width: 1900px) {
+    
+    .nav_item_menu_pages {
+        gap: 16px;
+        padding: 0px 0px 0 40px;
+    }
+    .nav_item_menu_pages a {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 4px;
+        color: var(--white-page);
+        font-size: 1.4rem;
+    }
+}

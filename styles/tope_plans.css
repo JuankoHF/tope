@@ -538,12 +538,12 @@
     }
     .description_card {
         width: 100%;
-        height: 160px;
+        height: 176px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding: 24px 20px;
+        padding: 24px 20px 16px;
         gap: 8px;
     }
     .description_chequed {

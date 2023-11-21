@@ -227,3 +227,24 @@
         margin-top: 40px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .form-container {
+        padding: 30px 40px;
+    }
+    .heading {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    .form-container .form .input {
+        padding: 10px;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    .form-container .form .button-container .send-button {
+        flex-basis: 50%;
+        padding: 10px;
+        font-size: 1.6rem;
+        letter-spacing: 0.8px;
+    }
+}

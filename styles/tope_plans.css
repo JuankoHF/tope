@@ -368,3 +368,79 @@
         font-size: 2.6rem;
     }
 }
+@media screen and (min-width: 1200px) {
+    .header_plans_left {
+        height: 220px;
+        padding: 48px 134px;
+    }
+    .header_plans_center {
+        height: 220px;
+        padding: 60px 48px 0 130px;
+    }
+
+    .header_plans_center h3 {
+        font-size: 3.2rem;
+        letter-spacing: 1px;
+    }
+    .header_plans_center p {
+        font-size: 2.6rem;
+        margin-top: 20px;
+    }
+    .header_plans_right {
+        height: 220px;
+        padding: 48px 70px 0 130px;
+    }
+    .tope_plans {
+        align-items: center;
+    }
+
+    .plans_content {
+        width: auto;
+        gap: 60px;
+        margin: 80px 0 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual tamaño */   
+
+    }
+    .card_plan {
+        width: 356px;
+    }
+    .description_contaimer {
+        width: 70%;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 16px 16px 0;
+        gap: 8px;
+    }
+    .description_contaimer p {
+        font-size: 1.2rem;
+    }
+    .description_contaimer span {
+        display: block;
+        width: 100%;
+        height: 12px;
+    }
+
+    .image_card {
+        width: 30%;
+        height: 230px;
+        overflow: hidden;
+    }
+    .description_card {
+        height: 100px;
+        padding: 12px 16px;
+        gap: 4px;
+    }
+    .more_info {
+        height: 50px;
+        padding-right: 20px;
+        border-top: solid 2px var(--section-clear);
+    }
+
+    .description_chequed p {
+        font-size: 1rem;
+    }
+}

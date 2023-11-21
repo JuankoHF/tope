@@ -326,7 +326,27 @@
     }
     
 }
+@media screen and (min-width: 1200px) {
+    .footer_initial_landing {
+        gap: 32px;
+        padding: 16px 0 40px;
+    }
 
+    .get_budget {
+        width: 660px;
+        gap: 20px;
+    }
+    .get_budget span {
+        width: 100px;
+        height: 2px;
+        background-color: var(--white-page);
+        margin-top: 10px;
+    }
+    .initial_landing img {
+        width: 40%;
+        height: 78%;
+    }
+}
 
 
 

@@ -105,7 +105,7 @@
                 <a target="_blank" href="https://www.linkedin.com/in/tope-digital-8050a62a1/">
                     <span class="icon_linkedin"></span>
                 </a>
-                <a target="_blank" href="">
+                <a target="_blank" href="https://g.page/r/CeZETGlE7j9-EAI/review">
                     <span class="icon_google"></span>
                 </a>
 
@@ -114,12 +114,12 @@
                 </div>
 
                 <ul class="nav_item_menu">
-                    <li class="list"><a class="item_menu list1" href="#home">Inicio</a></li>
-                    <li class="list"><a class="item_menu list2" href="#toAbout">Sobre <strong translate="no">TOPE</strong></a></li>
-                    <li class="list"><a class="item_menu list3" href="#toStrategy">Estrategia</a></li>
-                    <li class="list"><a class="item_menu list4" href="#toPlans">Planes</a></li>
-                    <li class="list"><a class="item_menu list5" href="#toCreator">Sobre el Creador</a></li>
-                    <li class="list"><a class="item_menu list6" href="#toContact">Contacto</a></li>
+                    <li class="list"><a class="item_menu list7" href="#home">Inicio</a></li>
+                    <li class="list"><a class="item_menu list8" href="#toAbout">Sobre <strong translate="no">TOPE</strong></a></li>
+                    <li class="list"><a class="item_menu list9" href="#toStrategy">Estrategia</a></li>
+                    <li class="list"><a class="item_menu list10" href="#toPlans">Planes</a></li>
+                    <li class="list"><a class="item_menu list11" href="#toCreator">Sobre el Creador</a></li>
+                    <li class="list"><a class="item_menu list12" href="#toContact">Contacto</a></li>
                 </ul>
             </nav>
             <ul class="content_item_menu">
@@ -467,20 +467,25 @@
 
                 
                 <div class="form-container">
-                    <form action="https://formsubmit.co/a53a5bf50098ae1d4b1cb1f334b14b25" method="POST" class="form">
+                    <form class="form" id="form">
                         <span class="heading">Contacte con nosotros</span>
-                        <input placeholder="Nombre completo" type="text" class="input" name="name">
-                        <input placeholder="Email" id="mail" type="email" class="input" name="email">
-                        <input placeholder="Teléfono de contacto" id="phone" type="number" class="input" name="phone">
-                        <input placeholder="Tu página web (si ya tienes una)" id="webSite" type="text" class="input" name="webSite">
-                        <textarea placeholder="Describe tu consulta" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
+                        <input placeholder="Nombre completo" type="text" class="input" name="name" id="name" required>
+                        <input placeholder="Email" id="mail" type="email" class="input" name="email" id="email" required>
+                        <input placeholder="Teléfono de contacto" id="phone" type="number" class="input" name="phone" id="phone" required>
+                        <input placeholder="Tu página web (si ya tienes una)" id="webSite" type="text" class="input" name="webSite" id="wedSite">
+                        <textarea placeholder="Describe tu consulta" rows="10" cols="30" id="message" name="message" class="textarea"></textarea required>
                         <div class="button-container">
-                            <button type="submit" class="send-button">Enviar</button> 
+                            <button type="submit" class="send-button" id="button">Enviar</button> 
                         </div>
 
-                        <input type="hidden" name="_next" value="https://topedigital.com">
-                        <input type="hidden" name="_captcha" value="false">
                     </form>
+                    <script type="text/javascript"
+                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                    </script>
+
+                    <script type="text/javascript">
+                        emailjs.init('hALViE8cnISQHVeOA')
+                    </script>
                 </div>
             </div>
 
@@ -517,6 +522,28 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+<script>
+    const btn = document.getElementById('button');
+
+    document.getElementById('form')
+    .addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    btn.value = 'Enviando...';
+
+    const serviceID = 'default_service';
+    const templateID = 'template_obvuub9';
+
+    emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+        btn.value = 'Enviar';
+        alert('¡Mensaje enviado correctamente!');
+        }, (err) => {
+        btn.value = 'Enviar';
+        alert(JSON.stringify(err));
+        });
+    });
 </script>
 
 </html>

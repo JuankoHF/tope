@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="SEO, seo, diseño web, desarrollo web, desarrollo de paginas webs,
+        digital Cáceres, empresa digital en Cáceres, posicionamiento de empresas, marketing digital Cáceres,
+        redes sociales Cáceres, agencia SEO Cáceres, Social Media Cáceres, gestión de redes sociales en Cáceres,
+        en Extremadura"
+    >
+    <meta name="description" content="Empresa de desarrollo y gestión de herramientas digitales para el posicionamiento en la red.
+        Diseño y Desarrollo Web, Posicionamiento SEO, Gestión de Redes Sociales. Tácticas Operativas de Posicionamiento Empresarial"
+    >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Montserrat:ital,wght@0,100;0,400;0,600;1,200&family=Roboto+Slab:wght@200;400;700&display=swap" rel="stylesheet">
@@ -15,7 +23,7 @@
     <link rel="stylesheet" href="styles/about_creator.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Documento</title>
+    <title> Diseño y Desarrollo Web | Optimización de Redes Sociales | TOPE | Posicionamiento Web |</title>
 </head>
 <body>
     <header>
@@ -37,7 +45,7 @@
             <div class="container_slider_top">
                 <ul>
                     <li>
-                        <h2 class="tittle_blue" id="h2Web">DISEÑO Y DESARROLO WEB</h2>
+                        <h2 class="tittle_blue" id="h2Web">DISEÑO Y DESARROLLO WEB</h2>
                         <p>creamos experiencias a gusto y medida de tus exigencias, ¡déjate ver! </p>
                     </li>
                     <li>
@@ -90,14 +98,14 @@
 
         <section class="tope_identity" id="scroledStop">
             
-            <div class="nav_identity">
-                <a href="">
+            <nav class="nav_identity">
+                <a target="_blank" href="https://www.instagram.com/tope.digital">
                     <span class="icon_instagram"></span>
                 </a>
-                <a href="">
+                <a target="_blank" href="https://www.linkedin.com/in/tope-digital-8050a62a1/">
                     <span class="icon_linkedin"></span>
                 </a>
-                <a href="">
+                <a target="_blank" href="https://g.page/r/CeZETGlE7j9-EAI/review">
                     <span class="icon_google"></span>
                 </a>
 
@@ -105,8 +113,15 @@
                     <span class="icon_menu"></span>
                 </div>
 
-               
-            </div>
+                <ul class="nav_item_menu">
+                    <li class="list"><a class="item_menu list7" href="#home">Inicio</a></li>
+                    <li class="list"><a class="item_menu list8" href="#toAbout">Sobre <strong translate="no">TOPE</strong></a></li>
+                    <li class="list"><a class="item_menu list9" href="#toStrategy">Estrategia</a></li>
+                    <li class="list"><a class="item_menu list10" href="#toPlans">Planes</a></li>
+                    <li class="list"><a class="item_menu list11" href="#toCreator">Sobre el Creador</a></li>
+                    <li class="list"><a class="item_menu list12" href="#toContact">Contacto</a></li>
+                </ul>
+            </nav>
             <ul class="content_item_menu">
                 <li class="list"><a class="item_menu list1" href="#home">Inicio</a></li>
                 <li class="list"><a class="item_menu list2" href="#toAbout">Sobre <strong translate="no">TOPE</strong></a></li>
@@ -149,7 +164,7 @@
                             <li>626708613</li>
                             <span class="line_separator"></span>
                             <li><strong>Correo electrónico</strong></li>
-                            <li><a href="">poner el personalizado</a></li>
+                            <li><a href="">ceo@topedigital.com</a></li>
                             <li><a href="">herferjuan9003@gmail.com</a></li>
                         </ul>
                     </div>
@@ -452,28 +467,36 @@
 
                 
                 <div class="form-container">
-                    <div class="form">
+                    <form class="form" id="form">
                         <span class="heading">Contacte con nosotros</span>
-                        <input placeholder="Nombre completo" type="text" class="input">
-                        <input placeholder="Email" id="mail" type="email" class="input">
-                        <input placeholder="Teléfono de contacto" id="phone" type="number" class="input">
-                        <input placeholder="Tu página web (si ya tienes una)" id="webSite" type="text" class="input">
-                        <textarea placeholder="Say Hello" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
+                        <input placeholder="Nombre completo" type="text" class="input" name="name" id="name" required>
+                        <input placeholder="Email" id="mail" type="email" class="input" name="email" id="email" required>
+                        <input placeholder="Teléfono de contacto" id="phone" type="number" class="input" name="phone" id="phone" required>
+                        <input placeholder="Tu página web (si ya tienes una)" id="webSite" type="text" class="input" name="webSite" id="wedSite">
+                        <textarea placeholder="Describe tu consulta" rows="10" cols="30" id="message" name="message" class="textarea"></textarea required>
                         <div class="button-container">
-                            <button type="submit" class="send-button">Enviar</button> 
+                            <button type="submit" class="send-button" id="button">Enviar</button> 
                         </div>
-                    </div>
+
+                    </form>
+                    <script type="text/javascript"
+                        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                    </script>
+
+                    <script type="text/javascript">
+                        emailjs.init('hALViE8cnISQHVeOA')
+                    </script>
                 </div>
             </div>
 
-            <div class="footer_contact">
+            <footer class="footer_contact">
                 <div class="footer">
-                    <div class="content">
-                        <a href="./pages/cookies.html" >COOKIES</a>
-                        <a href="./pages/cookies.html#protection" >PROTECCIÓN DE DATOS</a>
-                        <a href="./pages/cookies.html#aviso" >AVISO LEGAL</a>
+                    <nav class="content">
+                        <a href="./pages/legal.html" >COOKIES</a>
+                        <a href="./pages/legal.html#protection" >PROTECCIÓN DE DATOS</a>
+                        <a href="./pages/legal.html#aviso" >AVISO LEGAL</a>
                         <a href="#toContact" >CONTACTO</a> 
-                    </div>
+                    </nav>
                     <div class="content_signature">
                         <p>copyright 2023 ® </p>
                         <p> | Desarrollado por JNK-WedDEV & <strong> TOPE</strong></p>
@@ -488,7 +511,7 @@
                         <object data="./icons/jnk.svg" class="jnk" type=""></object>
                     </div>
                 </div>
-            </div>
+            </footer>
         </section>
     </main>
 
@@ -499,6 +522,28 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+<script>
+    const btn = document.getElementById('button');
+
+    document.getElementById('form')
+    .addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    btn.value = 'Enviando...';
+
+    const serviceID = 'default_service';
+    const templateID = 'template_obvuub9';
+
+    emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+        btn.value = 'Enviar';
+        alert('¡Mensaje enviado correctamente!');
+        }, (err) => {
+        btn.value = 'Enviar';
+        alert(JSON.stringify(err));
+        });
+    });
 </script>
 
 </html>

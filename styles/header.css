@@ -2,7 +2,7 @@
 
 .header_content {
     width: 80%;
-    max-width: 800px;
+    max-width: 900px;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -53,4 +53,51 @@
     border: solid 1px #ffffff;
     transition: all 0.5s ease-in-out;
 
+}
+@media screen and (min-width: 700px) and (min-height: 510px) {
+    .header_left img {
+        width: 30px;
+        height: 36px;
+        object-fit: cover;
+        margin-bottom: 4px;
+    }
+    .header_left p {
+        font-size: 2.2rem;
+        letter-spacing: 1.8px;
+    }
+
+    .buton_contact {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .header_left {
+        gap: 16px;
+    }
+    .header_left p {
+        font-size: 2.6rem;
+        letter-spacing: 2px;
+    }
+    .buton_contact {
+        padding: 4px 16px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .header_left p {
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+    .buton_contact {
+        padding: 4px 20px;
+        font-size: 1.6rem;
+        border-radius: 10px;
+    }
+    .contact_addedt_menu {
+        font-size: 1.2rem;
+        padding: 4px 12px;
+        border: solid 1px #ffffff;
+        transition: all 0.5s ease-in-out;
+        border-radius: 8px;
+    }
 }

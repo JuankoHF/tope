@@ -9,6 +9,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
+    background-color: black;
 }
 .initial_landing img {
     width: 100%;
@@ -193,9 +194,205 @@
 .tope_etymology p strong {
     color: var(--primary-color);
 }
+@media screen and (min-width: 700px) and (min-height: 510px) {
+    .initial_landing img {
+        width: 92%;
+        height: 86%;
+    }
+    .container_slider_top li {
+        padding: 30vh 8% 0;
+        gap: 36px;
+    }
+    .container_slider_top li h2 {
+        font-size: 3.4rem;
+        letter-spacing: 1.4px;
+    }
+    .container_slider_top li p {
+        width: 66%;
+        font-size: 2.4rem;
+        letter-spacing: 0.8px;
+    }
 
+    .footer_initial_landing {
+        gap: 40px;
+        padding: 16px 0 68px;
+    }
 
+    .get_budget {
+        width: 540px;
+        height: 40px;
+       
+    }
+    .get_budget a {
+        font-size: 1.6rem;
+    }
+    .tope_etymology p {
+        font-size: 1.2rem;
+        letter-spacing: 1.2px;
+    }
+    .content_sliders_points {
+        width: 16px;
+        height: 60px;
+        top: calc(50% - 30px);
+        left: 20px;
+    }
+    .contente_color_points {
+        height: 60px;
+        gap: 8px;
+    }
+    .content_sliders_points ul {
+        height: 180px;
+        min-height: 180px;
+    }
+    .point {
+        width: 8px;
+        height: 8px;
+    }
+    .active_pointSlider {
+        width: 12px;
+        height: 12px;
+    }
+    @keyframes pointsCambio{
+        0%{margin-top: 0;}
+        40%{margin-top: 0;}
+        
+        41%{margin-top: -60px;}
+        70%{margin-top: -60px;}
+    
+        71%{margin-top: -120px;}
+        100%{margin-top: -120px;}
+        
+    }
+    
+}
+@media screen and (min-width: 830px) and (max-height: 500px) {
+    .initial_landing img {
+        width: 38%;
+        height: 70%;
+    }
+    .container_slider_top li {
+        padding: 30vh 8% 0;
+        gap: 24px;
+    }
+    /* .container_slider_top li h2 {
+        font-size: 3.4rem;
+        letter-spacing: 1.4px;
+    }
+    .container_slider_top li p {
+        width: 66%;
+        font-size: 2.4rem;
+        letter-spacing: 0.8px; 
+    }*/
 
+    .footer_initial_landing {
+        gap: 20px;
+        padding: 8px 0 16px;
+    }
+
+    .get_budget {
+        width: 540px;
+        height: 32px; 
+    }
+    .get_budget span {
+        width: 100px;
+        height: 2px;
+        background-color: var(--white-page);
+        margin-top: 10px;
+    }
+    .get_budget a {
+        font-size: 1.2rem;
+    }
+    .tope_etymology p {
+        font-size: 1rem;
+        letter-spacing: 1.2px;
+    }
+    
+}
+@media screen and (min-width: 1000px) {
+    .footer_initial_landing {
+        gap: 60px;
+        padding: 32px 0 80px;
+    }
+
+    .get_budget {
+        width: 660px;
+        gap: 20px;
+    }
+    .get_budget span {
+        width: 100px;
+        height: 2px;
+        background-color: var(--white-page);
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    .footer_initial_landing {
+        gap: 32px;
+        padding: 16px 0 40px;
+    }
+
+    .get_budget {
+        width: 660px;
+        gap: 20px;
+    }
+    .get_budget span {
+        width: 100px;
+        height: 2px;
+        background-color: var(--white-page);
+        margin-top: 10px;
+    }
+    .initial_landing img {
+        width: 40%;
+        height: 80%;
+        margin-bottom: 10%;
+    }
+}
+@media screen and (min-width: 1900px) {
+   
+    .initial_landing img {
+        width: 40%;
+        height: 90%;
+        margin-bottom: 10%;
+    }
+    .container_slider_top li {
+        padding: 30vh 10% 0;
+        gap: 60px;
+    }
+    .container_slider_top li h2 {
+        font-size: 4.4rem;
+        letter-spacing: 1.8px;
+    }
+    .container_slider_top li p {
+        width: 50%;
+        font-size: 3rem;
+        letter-spacing: 1px;
+    }
+    .footer_initial_landing {
+        gap: 40px;
+        padding: 16px 0 60px;
+    }
+
+    .get_budget {
+        width: 800px;
+        gap: 28px;
+        height: 40px;
+    }
+    .get_budget span {
+        width: 150px;
+        height: 2px;
+        background-color: var(--white-page);
+        margin-top: 10px;
+    }
+    .get_budget a {
+        font-size: 1.8rem;
+    }
+    .tope_etymology p {
+        font-size: 1.4rem;
+        letter-spacing: 1.6px;
+    }
+
+}
 
 
 

@@ -38,6 +38,12 @@ window.addEventListener('scroll', function() {
     let list4 = document.querySelector(".list4");
     let list5 = document.querySelector(".list5");
     let list6 = document.querySelector(".list6");
+    let list7 = document.querySelector(".list7");
+    let list8 = document.querySelector(".list8");
+    let list9 = document.querySelector(".list9");
+    let list10 = document.querySelector(".list10");
+    let list11 = document.querySelector(".list11");
+    let list12 = document.querySelector(".list12");
 
 
     if(positionScroledStop <= 60) {
@@ -62,6 +68,13 @@ window.addEventListener('scroll', function() {
         list4.classList.remove("active_position_menu");
         list5.classList.remove("active_position_menu");
         list6.classList.remove("active_position_menu");
+
+        list7.classList.add("active_position_menu");
+        list8.classList.remove("active_position_menu");
+        list9.classList.remove("active_position_menu");
+        list10.classList.remove("active_position_menu");
+        list11.classList.remove("active_position_menu");
+        list12.classList.remove("active_position_menu");
     }
 
     if (positionScroledStop < scrollTop/3) {
@@ -71,6 +84,13 @@ window.addEventListener('scroll', function() {
         list4.classList.remove("active_position_menu");
         list5.classList.remove("active_position_menu");
         list6.classList.remove("active_position_menu");
+
+        list8.classList.add("active_position_menu");
+        list7.classList.remove("active_position_menu");
+        list9.classList.remove("active_position_menu");
+        list10.classList.remove("active_position_menu");
+        list11.classList.remove("active_position_menu");
+        list12.classList.remove("active_position_menu");
     }
 
     if (positiontopStrategy < scrollTop/3) {
@@ -80,6 +100,13 @@ window.addEventListener('scroll', function() {
         list4.classList.remove("active_position_menu");
         list5.classList.remove("active_position_menu");
         list6.classList.remove("active_position_menu");
+
+        list9.classList.add("active_position_menu");
+        list7.classList.remove("active_position_menu");
+        list8.classList.remove("active_position_menu");
+        list10.classList.remove("active_position_menu");
+        list11.classList.remove("active_position_menu");
+        list12.classList.remove("active_position_menu");
     }
     if (positionplans < scrollTop/3) {
         list4.classList.add("active_position_menu");
@@ -88,6 +115,13 @@ window.addEventListener('scroll', function() {
         list3.classList.remove("active_position_menu");
         list5.classList.remove("active_position_menu");
         list6.classList.remove("active_position_menu");
+
+        list10.classList.add("active_position_menu");
+        list7.classList.remove("active_position_menu");
+        list8.classList.remove("active_position_menu");
+        list9.classList.remove("active_position_menu");
+        list11.classList.remove("active_position_menu");
+        list12.classList.remove("active_position_menu");
     }
 
     if (positioncreator < scrollTop/3) {
@@ -97,6 +131,13 @@ window.addEventListener('scroll', function() {
         list3.classList.remove("active_position_menu");
         list4.classList.remove("active_position_menu");
         list6.classList.remove("active_position_menu");
+
+        list11.classList.add("active_position_menu");
+        list7.classList.remove("active_position_menu");
+        list8.classList.remove("active_position_menu");
+        list9.classList.remove("active_position_menu");
+        list10.classList.remove("active_position_menu");
+        list12.classList.remove("active_position_menu");
     }
 
     if (positioncontact < scrollTop/3) {
@@ -106,6 +147,13 @@ window.addEventListener('scroll', function() {
         list3.classList.remove("active_position_menu");
         list4.classList.remove("active_position_menu");
         list5.classList.remove("active_position_menu");
+
+        list12.classList.add("active_position_menu");
+        list8.classList.remove("active_position_menu");
+        list9.classList.remove("active_position_menu");
+        list10.classList.remove("active_position_menu");
+        list11.classList.remove("active_position_menu");
+        list7.classList.remove("active_position_menu");
     }
 
 })

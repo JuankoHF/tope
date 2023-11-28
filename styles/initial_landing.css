@@ -46,11 +46,12 @@
     gap: 20px;
 
 }
-.container_slider_top li h2 {
+.container_slider_top li span {
     text-align: right;
     font-family: 'Roboto Slab', serif;
     font-size: 2.8rem;
     letter-spacing: 1.2px;
+    font-weight: bold;
 }
 .tittle_blue {
     color: var(--secundary-color);
@@ -203,7 +204,7 @@
         padding: 30vh 8% 0;
         gap: 36px;
     }
-    .container_slider_top li h2 {
+    .container_slider_top li span {
         font-size: 3.4rem;
         letter-spacing: 1.4px;
     }
@@ -359,7 +360,7 @@
         padding: 30vh 10% 0;
         gap: 60px;
     }
-    .container_slider_top li h2 {
+    .container_slider_top li span {
         font-size: 4.4rem;
         letter-spacing: 1.8px;
     }

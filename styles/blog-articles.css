@@ -386,4 +386,78 @@
         width: 18px;
         height: 18px;
     }
+    .description_open {
+        gap: 12px;
+    }
+    .description_open li {
+        font-size: 1.2rem;
+    }
+
+}
+@media screen and (min-width: 830px) and (max-height: 500px) {
+    .intro_article_body h1 {
+        font-size: 2.8rem;
+        letter-spacing: 1.2px;
+    }
+    .intro_article_body h2 {
+        font-size: 2.4rem;
+    }
+    .intro_article_body p {
+        font-size: 1.4rem;
+    }
+    .router_baner {
+        width: 60%;
+        height: 200px;
+        padding: 16px 12px;
+    }
+    .router_baner h2 {
+        font-size: 2rem;
+        color: black;
+        text-align: center;
+    }
+    .content_routers {
+        gap: 40px 80px;
+    }
+    .card_router {
+        height: 200px;
+    }
+    .card_router img {
+        height: 100px;
+       
+    }
+    .card_router p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .card_router a {
+        font-size: 1.4rem;
+        letter-spacing: 0.6px;
+        padding: 6px 16px;
+    }
+    .blog_information_content p, .exposition_products p {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+    .introduction p {
+        font-size: 1.4rem;
+    }
+    .amz_image_copy {
+        width: 90%;
+        max-width: 900px;
+        height: 200px;
+        gap: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .img_and_botton {
+        width: 100%;
+
+    }
+    .amz_go_to {
+        width: 100%;
+        max-width: 250px;
+        font-size: 1.4rem;
+        border-radius: 8px;
+    }
 }

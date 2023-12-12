@@ -270,3 +270,120 @@
 .dor_arrow_up span {
     transform: rotate(180deg);
 }
+
+@media screen and (min-width: 400px) {
+    .router_baner {
+        height: 160px;
+        padding: 24px 20px;
+    }
+
+    .header_exposition {
+        width: 80%;
+    }
+    .introduction {
+        width: 80%;
+    }
+    .amz_image_copy {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 700px) and (min-height: 510px) {
+    
+    .articles_body {
+        padding: 240px 0 60px;
+    }
+
+    .intro_article_body {
+        width: 70%;
+        max-width: 700px;
+    }
+    .intro_article_body h1 {
+        font-size: 3.2rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 24px;
+    }
+    .intro_article_body h2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.6px;
+    }
+    .intro_article_body p {
+        font-size: 1.6rem;
+        margin: 36px 0;
+    }
+    .router_baner {
+        height: 260px;
+        padding: 36px 40px;
+    }
+    .router_baner h2 {
+        font-size: 2.6rem;
+        letter-spacing: 1.2px;
+    }
+    .content_routers {
+        margin: 36px 0;
+        gap: 60px 40px;
+    }
+    .card_router {
+        height: 200px;
+    }
+    .card_router img {
+        height: 100px;
+       
+    }
+    .card_router p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .card_router a {
+        font-size: 1.6rem;
+        letter-spacing: 0.6px;
+        padding: 6px 16px;
+    }
+    .blog_information_content h2, .exposition_products h2 {
+        font-size: 2.6rem;
+        margin-bottom: 24px;
+    }
+
+    .blog_information_content h3 {
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+    .blog_information_content p, .exposition_products p {
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+    }
+    .exposition_products {
+        padding-top: 36px;
+    }
+    .header_exposition {
+        padding-bottom: 36px;
+    }
+
+    .amz_product_description {
+        gap: 28px;
+        padding: 36px 0;
+    }
+    .introduction p {
+        font-size: 1.6rem;
+    }
+    .amz_image_copy {
+        height: 240px;
+        gap: 40px;
+    }
+    .img_and_botton {
+        width: 100%;
+    }
+    .introduction {
+        gap: 28px;
+    }
+
+    .amz_go_to {
+        padding: 6px 12px;
+        font-size: 1.6rem;
+        border-radius: 8px;
+    }
+    .amz_go_to span {
+        width: 18px;
+        height: 18px;
+    }
+}

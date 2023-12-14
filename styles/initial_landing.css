@@ -195,6 +195,35 @@
 .tope_etymology p strong {
     color: var(--primary-color);
 }
+
+.link_whatsapp {
+    position: fixed;
+    bottom: 8vh;
+    right: 8vw;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border-radius: 14px;
+    box-shadow: 1px 3px 10px rgba(77, 76, 76, 0.836);
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+
+}
+.link_whatsapp span {
+    background-image: url(../icons/whatsapp-icon.svg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.visibleWhatsapp {
+    opacity: 1;
+    width: 44px;
+    height: 44px;
+    transition: all 0.8s ease-in-out;
+}
 @media screen and (min-width: 700px) and (min-height: 510px) {
     .initial_landing img {
         width: 92%;

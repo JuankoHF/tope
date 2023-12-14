@@ -34,6 +34,7 @@ window.addEventListener('scroll', function() {
     let positioncontact = animatecontact.getBoundingClientRect().top;
     
     let scrollTop = window.innerHeight;
+    let whatsappIcon = document.querySelector(".link_whatsapp")
     let list1 = document.querySelector(".list1");
     let list2 = document.querySelector(".list2");
     let list3 = document.querySelector(".list3");
@@ -68,6 +69,7 @@ window.addEventListener('scroll', function() {
     //identificador del menú
 
     if(-1*positionhome < scrollTop*(2/3)) {
+        whatsappIcon.classList.remove("visibleWhatsapp");
         list1.classList.add("active_position_menu");
         list2.classList.remove("active_position_menu");
         list3.classList.remove("active_position_menu");
@@ -84,6 +86,7 @@ window.addEventListener('scroll', function() {
     }
 
     if (positionScroledStop < scrollTop/3) {
+        whatsappIcon.classList.add("visibleWhatsapp");
         list2.classList.add("active_position_menu");
         list1.classList.remove("active_position_menu");
         list3.classList.remove("active_position_menu");

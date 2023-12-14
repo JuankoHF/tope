@@ -2,10 +2,13 @@
 
 .this_page_div {
     border-bottom: solid 2px var(--primary-color);
-    z-index: 1000;
 }
 .this_page_div .this_page_text {
     color: black;
+}
+.this_page_li {
+    border-left: solid 2px var(--primary-color);
+    padding-left: 4px;
 }
 
 .articles_body {
@@ -240,6 +243,7 @@
     display: flex;
     align-items: center;
     gap: 16px;
+    cursor: pointer;
 }
 .description_door span,
 .description_door2 span {
@@ -546,5 +550,34 @@
     }
     .description_open li {
         font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .intro_article_body {
+        max-width: 800px;
+    }
+    .intro_article_body h1 {
+        margin-bottom: 36px;
+    }
+    .intro_article_body p {
+        font-size: 1.6rem;
+        margin: 44px 0;
+    }
+    .content_routers {
+        margin: 44px 0;
+        gap: 70px 60px;
+    }
+    .blog_information_content h2, .exposition_products h2 {
+        font-size: 2.8rem;
+        margin-bottom: 32px;
+    }
+    .blog_information_content p, .exposition_products p {
+        font-size: 1.8rem;
+        margin-bottom: 16px;
+        text-align: justify;
+    }
+    .exposition_products {
+        padding-top: 48px;
+        margin-top: 24px;
     }
 }

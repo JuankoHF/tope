@@ -222,6 +222,11 @@ header {
     margin: 6px 0;
     list-style: none;
 }
+.blog_nav_item_menu ul li:hover {
+    border-left: solid 3px var(--primary-color);
+    padding-left: 4px;
+    transition: all 0.3s linear;
+}
 .blog_nav_item_menu ul li a {
     text-decoration: none;
     font-size: 1.2rem;

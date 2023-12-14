@@ -12,7 +12,6 @@ window.addEventListener('scroll', function() {
     let animateScrollEfect = document.getElementById("scrollEfect");
     let positionScrollEfect = animateScrollEfect.getBoundingClientRect().top;
     let boxHeader = document.querySelector(".header_blog_content");
-    console.log(positionScrollEfect)
 
 
     if(positionScrollEfect < 160) {

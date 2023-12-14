@@ -1,0 +1,583 @@
+@import './global.css';
+
+.this_page_div {
+    border-bottom: solid 2px var(--primary-color);
+}
+.this_page_div .this_page_text {
+    color: black;
+}
+.this_page_li {
+    border-left: solid 2px var(--primary-color);
+    padding-left: 4px;
+}
+
+.articles_body {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 180px 0 40px;
+}
+.intro_article_body {
+    width: 80%;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.intro_article_body h1 {
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    font-family: 'Roboto Slab', serif;
+    color: var(--section-dark);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.intro_article_body h2 {
+    font-size: 2rem;
+    letter-spacing: 0.4px;
+    color: var(--section-clear);
+}
+.intro_article_body p {
+    font-size: 1.2rem;
+    text-align: right;
+    margin: 24px 0;
+}
+
+.router_baner {
+    width: 90%;
+    max-width: 900px;
+    height: 130px;
+    background-image: url(../images/router-baner-intro.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 12px 20px;
+}
+.router_baner h2 {
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+}
+
+.content_routers {
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    padding: 20px 0;
+    margin: 24px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);   
+    gap: 40px 16px;
+}
+
+.card_router {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_router img {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    object-fit: contain;
+    object-position: center;
+}
+.card_router p {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.card_router a {
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 6px 14px;
+    background-color: var(--amz-action);
+    border: solid 1px #d6b510;
+    border-radius: 8px;
+}
+.card_router a:hover {
+    background-color: #423701e0;
+    color: var(--section-blog);
+}
+
+.blog_information_content {
+    width: 80%;
+    max-width: 900px;
+    height: auto;
+}
+.blog_information_content h2,
+.exposition_products h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.blog_information_content h3 {
+    font-size: 1.6rem;
+    color: var(--section-clear);
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.blog_information_content p,
+.exposition_products p {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.blog_information_content p a {
+    color: var(--primary-color);
+}
+
+.exposition_products {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--section-blog);
+}
+.header_exposition {
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 12px
+  
+}
+
+/* ESTO VIENE DE ROBOTS */
+
+.amz_product_description {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 0;
+    background-color: var(--white-page);
+}
+.introduction_description p a {
+    text-decoration: none;
+    color: black;
+}
+
+.amz_image_copy {
+    width: 90%;
+    max-width: 900px;
+    height: 200px;
+    gap: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.img_and_botton {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.img_and_botton img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.amz_go_to {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 6px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var( --amz-action);
+    border: solid 1px #d6b510;
+    border-radius: 6px;
+}
+
+.amz_go_to span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url(../icons/shopping-cart.svg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+.introduction {
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.introduction p {
+    font-size: 1.2rem;
+    color: black;
+}
+.description_door,
+.description_door2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+.description_door span,
+.description_door2 span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-image: url(../icons/arrow-down-black.svg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+   
+}
+.description_close,
+.description_close2 {
+    display: none;
+}
+
+.description_open {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.description_open li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.dor_arrow_up span {
+    transform: rotate(180deg);
+}
+
+@media screen and (min-width: 400px) {
+    .router_baner {
+        height: 160px;
+        padding: 24px 20px;
+    }
+
+    .header_exposition {
+        width: 80%;
+    }
+    .introduction {
+        width: 80%;
+    }
+    .amz_image_copy {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 700px) and (min-height: 510px) {
+    
+    .articles_body {
+        padding: 240px 0 60px;
+    }
+
+    .intro_article_body {
+        width: 70%;
+        max-width: 700px;
+    }
+    .intro_article_body h1 {
+        font-size: 3.2rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 24px;
+    }
+    .intro_article_body h2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.6px;
+    }
+    .intro_article_body p {
+        font-size: 1.6rem;
+        margin: 36px 0;
+    }
+    .router_baner {
+        height: 260px;
+        padding: 36px 40px;
+    }
+    .router_baner h2 {
+        font-size: 2.6rem;
+        letter-spacing: 1.2px;
+    }
+    .content_routers {
+        margin: 36px 0;
+        gap: 60px 40px;
+    }
+    .card_router {
+        height: 200px;
+    }
+    .card_router img {
+        height: 100px;
+       
+    }
+    .card_router p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .card_router a {
+        font-size: 1.6rem;
+        letter-spacing: 0.6px;
+        padding: 6px 16px;
+    }
+    .blog_information_content h2, .exposition_products h2 {
+        font-size: 2.6rem;
+        margin-bottom: 24px;
+    }
+
+    .blog_information_content h3 {
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+    .blog_information_content p, .exposition_products p {
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+    }
+    .exposition_products {
+        padding-top: 36px;
+    }
+    .header_exposition {
+        padding-bottom: 36px;
+    }
+
+    .amz_product_description {
+        gap: 28px;
+        padding: 36px 0;
+    }
+    .introduction p {
+        font-size: 1.6rem;
+    }
+    .amz_image_copy {
+        height: 240px;
+        gap: 40px;
+    }
+    .img_and_botton {
+        width: 100%;
+    }
+    .introduction {
+        gap: 28px;
+    }
+
+    .amz_go_to {
+        padding: 6px 12px;
+        font-size: 1.6rem;
+        border-radius: 8px;
+    }
+    .amz_go_to span {
+        width: 18px;
+        height: 18px;
+    }
+    .description_open {
+        gap: 12px;
+    }
+    .description_open li {
+        font-size: 1.2rem;
+    }
+
+}
+@media screen and (min-width: 830px) and (max-height: 500px) {
+    .intro_article_body h1 {
+        font-size: 2.8rem;
+        letter-spacing: 1.2px;
+    }
+    .intro_article_body h2 {
+        font-size: 2.4rem;
+    }
+    .intro_article_body p {
+        font-size: 1.4rem;
+    }
+    .router_baner {
+        width: 60%;
+        height: 200px;
+        padding: 16px 12px;
+    }
+    .router_baner h2 {
+        font-size: 2rem;
+        color: black;
+        text-align: center;
+    }
+    .content_routers {
+        gap: 40px 80px;
+    }
+    .card_router {
+        height: 200px;
+    }
+    .card_router img {
+        height: 100px;
+       
+    }
+    .card_router p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .card_router a {
+        font-size: 1.4rem;
+        letter-spacing: 0.6px;
+        padding: 6px 16px;
+    }
+    .blog_information_content p, .exposition_products p {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+    .introduction p {
+        font-size: 1.4rem;
+    }
+    .amz_image_copy {
+        width: 90%;
+        max-width: 900px;
+        height: 200px;
+        gap: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .img_and_botton {
+        width: 100%;
+
+    }
+    .amz_go_to {
+        width: 100%;
+        max-width: 250px;
+        font-size: 1.4rem;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .router_baner {
+        height: 330px;
+        padding: 36px 80px;
+    }
+
+    .router_baner h2 {
+        font-size: 2.8rem;
+        letter-spacing: 1.2px;
+    }
+
+    .content_routers {
+        margin: 36px 0;
+        gap: 70px 60px;
+    }
+    .card_router {
+        height: 220px;
+    }
+    .card_router img {
+        height: 120px;
+    }
+    .card_router p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .card_router a {
+        font-size: 1.6rem;
+        letter-spacing: 0.8px;
+        padding: 8px 24px;
+    }
+    .introduction {
+        gap: 40px;
+    }
+    .amz_go_to {
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .intro_article_body h1 {
+        font-size: 3.4rem;
+        letter-spacing: 1.4px;
+    }
+    .intro_article_body h2 {
+        font-size: 2.8rem;
+    }
+    .intro_article_body p {
+        font-size: 1.8rem;
+        letter-spacing: 0.4px;
+    }
+
+    .blog_information_content h2, .exposition_products h2 {
+        font-size: 2.8rem;
+        margin-bottom: 24px;
+    }
+    .blog_information_content h3 {
+        font-size: 2.4rem;
+        margin: 24px 0;
+    }
+    .blog_information_content p, .exposition_products p {
+        font-size: 1.8rem;
+        margin-bottom: 12px;
+        text-align: justify;
+    }
+    .exposition_products {
+        padding-top: 48px;
+    }
+    .header_exposition {
+        padding-bottom: 48px;
+    }
+    .amz_product_description {
+        gap: 36px;
+        padding: 48px 0;
+    }
+    .amz_image_copy {
+        height: 260px;
+        gap: 40px;
+    }
+    .description_door span, .description_door2 span {
+        width: 16px;
+        height: 16px;
+    }
+    .description_open li {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .intro_article_body {
+        max-width: 800px;
+    }
+    .intro_article_body h1 {
+        margin-bottom: 36px;
+    }
+    .intro_article_body p {
+        font-size: 1.6rem;
+        margin: 44px 0;
+    }
+    .content_routers {
+        margin: 44px 0;
+        gap: 70px 60px;
+    }
+    .blog_information_content h2, .exposition_products h2 {
+        font-size: 2.8rem;
+        margin-bottom: 32px;
+    }
+    .blog_information_content p, .exposition_products p {
+        font-size: 1.8rem;
+        margin-bottom: 16px;
+        text-align: justify;
+    }
+    .exposition_products {
+        padding-top: 48px;
+        margin-top: 24px;
+    }
+}

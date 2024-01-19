@@ -34,3 +34,29 @@ window.sr =ScrollReveal();
         origin: 'bottom',
         distance: '200px'
     });
+
+    sr.reveal('.nav_identity_pages', {
+        duration: 1000,
+        origin: 'right',
+        distance: '200px'
+    });
+    sr.reveal('.car1', {
+        duration: 1500,
+        origin: 'left',
+        distance: '200px'
+    });
+    sr.reveal('.car2', {
+        duration: 1000,
+        origin: 'right',
+        distance: '200px'
+    });
+    sr.reveal('.car3', {
+        duration: 1000,
+        origin: 'left',
+        distance: '250px'
+    });
+    sr.reveal('.car4', {
+        duration: 1200,
+        origin: 'right',
+        distance: '300px'
+    });

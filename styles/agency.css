@@ -485,31 +485,126 @@
     }
 }
 @media screen and (min-width: 700px) and (min-height: 510px){
-    .title_plans {
+    .over_bg_card {
+        padding: 140px 0 60px;
+    }
+    .content_welcome_flex {
+        gap: 60px;
+    }
+    .content_circles {
+        height: 340px;
+    }
+    .line_orange {
+        width: 220px;
+    }
+    .small_circle {
+        width: 20px;
+        height: 20px;
+    }
+    .big_circle {
+        width: 220px;
+        height: 220px;
+        top: 60px;
+        left: 50px 
+    }
+    .circle {
         width: 240px;
-        height: 160px;
-        gap: 16px;
+        height: 240px;
+        top: 50px;
+        left: 120px;
+        overflow: hidden;
     }
-
-    .title_plans h2 {
-        font-size: 2.2rem;
-    }
-
-    .title_plans p {
-        color: var(--section-clear);
+    
+    .text span {
+        position: absolute;
+        left: 50%;
         font-size: 1.8rem;
+        transform-origin: 0 120px;
     }
-    .content_body_section {
+    .text_and_action p {
+        font-size: 2.8rem;
+        letter-spacing: 1.2px;
+        padding-bottom: 30px;
+    }
+    .content_bottons_link {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
         gap: 12px;
-        margin: 40px 0;
+        margin-top: 30px;
     }
-    .content_body_section p,
-    .content_body_section h3 {
-        font-size: 1.8rem;
-        letter-spacing: 0.4px;
+    .content_bottons_link a {
+        width: 260px;
+        height: 40px;
+        font-size: 1.4rem;
+        font-weight: 600;
+        border-radius: 8px;
+    }
+    .welcome_agency h1 {
+        font-size: 2rem;
+        letter-spacing: 0.8px;
     }
 }
 
+@media screen and (min-width: 830px) and (max-height: 500px) {
+    .over_bg_card {
+        padding: 90px 0 40px;
+    }
+    .content_welcome_flex {
+        flex-direction: row;
+        gap: 28px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .over_bg_card {
+        padding: 160px 0 100px;
+    }
+    .content_welcome_flex {
+        gap: 140px;
+    }
+    .content_circles {
+        height: 380px;
+    }
+    .small_circle {
+        width: 24px;
+        height: 24px;
+    }
+    .big_circle {
+        width: 280px;
+        height: 280px;
+        top: 80px;
+        left: 100px 
+    }
+    .circle {
+        width: 300px;
+        height: 300px;
+        top: 70px;
+        left: 180px;
+        overflow: hidden;
+    }
+    
+    .text span {
+        position: absolute;
+        left: 50%;
+        font-size: 2.2rem;
+        transform-origin: 0 150px;
+    }
+    .text_and_action p {
+        font-size: 3.4rem;
+        letter-spacing: 1.6px;
+        padding-bottom: 30px;
+    }
+    .content_bottons_link a {
+        width: 340px;
+        height: 52px;
+        font-size: 1.8rem;
+        border-radius: 10px;
+    }
+    .welcome_agency h1 {
+        font-size: 2.4rem;
+        letter-spacing: 1px;
+    }
+}
 @media screen and (min-width: 1200px) {
     .nav_identity_pages {
         width: 80%;
@@ -532,7 +627,7 @@
     }
     .nav_item_menu_pages a {
         width: auto;
-        height: 100%;
+        height: 60%;
         display: flex;
         flex-wrap: nowrap;
         gap: 4px;
@@ -543,24 +638,47 @@
         opacity: 1;
         margin-bottom: 8px;
     }
-    .title_plans {
-        width: 300px;
-        height: 180px;
-        gap: 20px;
-        padding: 24px 0 0 24px;
+    .over_bg_card {
+        padding: 100px 0 60px;
     }
-    .title_plans h2 {
-        font-size: 2.6rem;
+    .content_welcome_flex {
+        flex-direction: row;
+        gap: 60px;
     }
-    .title_plans p {
-        color: var(--section-clear);
+    .big_circle {
+        width: 220px;
+        height: 220px;
+        top: 60px;
+        left: 50px;
+    }
+    .circle {
+        width: 240px;
+        height: 240px;
+        top: 50px;
+        left: 120px;
+        overflow: hidden;
+    }
+    .text span {
+        position: absolute;
+        left: 50%;
+        font-size: 1.8rem;
+        transform-origin: 0 120px;
+    }
+    .text_and_action p {
+        font-size: 2.8rem;
+        letter-spacing: 1.2px;
+        padding-bottom: 30px;
+    }
+    .content_bottons_link a {
+        width: 260px;
+        height: 40px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 8px;
+    }
+    .welcome_agency h1 {
         font-size: 2rem;
-        width: 80%;
-    }
-
-    .content_body_section {
-        gap: 14px;
-        margin: 60px 0;
+        letter-spacing: 0.8px;
     }
 }
 @media screen and (min-width: 1900px) {
@@ -577,5 +695,61 @@
         gap: 4px;
         color: var(--white-page);
         font-size: 1.4rem;
+    }
+
+    .over_bg_card {
+        padding: 120px 0 60px;
+    }
+    .content_welcome_flex {
+        max-width: 1500px;
+    }
+    .content_circles {
+        height: 500px;
+    }
+    .line_orange {
+        width: 260px;
+    }
+    .big_circle {
+        width: 280px;
+        height: 280px;
+        top: 80px;
+        left: 100px 
+    }
+    .circle {
+        width: 300px;
+        height: 300px;
+        top: 70px;
+        left: 180px;
+        overflow: hidden;
+    }
+    
+    .text span {
+        position: absolute;
+        left: 50%;
+        font-size: 2.2rem;
+        transform-origin: 0 150px;
+    }
+    .text_and_action p {
+        font-size: 3.4rem;
+        letter-spacing: 1.6px;
+        padding-bottom: 30px;
+    }
+    .content_bottons_link a {
+        width: 340px;
+        height: 52px;
+        font-size: 1.8rem;
+        border-radius: 10px;
+    }
+    .welcome_agency h1 {
+        font-size: 2.4rem;
+        letter-spacing: 1px;
+    }
+    .content_tope_description {
+        width: 80%;
+        max-width: 900px;
+    }
+    .content_tope_description p {
+        font-size: 2rem;
+        text-align: justify;
     }
 }

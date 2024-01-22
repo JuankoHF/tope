@@ -104,7 +104,7 @@
 }
 
 .text_marketing {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -192,6 +192,9 @@
     .strategy {
         padding-top: 80px;
     }
+    .content_strategy {
+        max-width: 1000px;
+    }
     .content_strategy h2 {
         font-size: 2.8rem;
         margin-bottom: 80px;
@@ -228,5 +231,6 @@
     
     .text_marketing p {
         font-size: 2rem;
+        text-align: justify;
     }
 }

@@ -88,9 +88,57 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: solid 1px var(--section-clear);
     border-radius: 8px;
+}
+.seo_card .content_flex_card, .ads_card .content_flex_card,
+.media_card .content_flex_card, .web_card .content_flex_card {
+    background-color: rgba(0, 0, 0, 0.645);
+    justify-content: center;
+}
+
+.seo_card .description_contaimer, .ads_card .description_contaimer,
+.media_card .description_contaimer, .web_card .description_contaimer {
+    width: 80%;
+    height: 160px;
+    padding: 20px 0 0;
+}
+.seo_card .description_contaimer h3, .ads_card .description_contaimer h3,
+.media_card .description_contaimer h3, .web_card .description_contaimer h3 {
+   font-size: 2rem;
+   text-align: center;
+}
+
+.seo_card .description_contaimer p, .ads_card .description_contaimer p,
+.media_card .description_contaimer p, .web_card .description_contaimer p {
+   font-size: 1.6rem;
+}
+.seo_card .description_card, .ads_card .description_card,
+.media_card .description_card, .web_card .description_card {
+    background-color: rgba(0, 0, 0, 0.645);
+    height: 130px;
+    padding: 0px 16px 0px;
+}
+
+.seo_card .more_info, .ads_card .more_info,
+.media_card .more_info, .web_card .more_info {
+    background-color: rgba(0, 0, 0, 0.645);
+    border-top: solid 1px black;
+}
+.seo_card {
+    background-image: url(../images/card_seo.jpeg);  
+}
+.ads_card {
+    background-image: url(../images/card_ads.jpeg);  
+}
+.media_card {
+    background-image: url(../images/card_rs.jpeg);  
+}
+.web_card {
+    background-image: url(../images/card__web.jpeg);  
 }
 .content_flex_card {
     width: 100%;
@@ -566,5 +614,20 @@
     .more_info a span {
         width: 28px;
         height: 37px;
+    }
+
+    .seo_card .description_contaimer, .ads_card .description_contaimer,
+    .media_card .description_contaimer, .web_card .description_contaimer {
+        height: 220px;
+        padding-bottom: 16px;
+    }
+    .seo_card .description_contaimer h3, .ads_card .description_contaimer h3,
+    .media_card .description_contaimer h3, .web_card .description_contaimer h3 {
+        font-size: 2.6rem;
+    }
+
+    .seo_card .description_contaimer p, .ads_card .description_contaimer p,
+    .media_card .description_contaimer p, .web_card .description_contaimer p {
+    font-size: 2rem;
     }
 }

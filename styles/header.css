@@ -30,6 +30,14 @@
     letter-spacing: 1.6px;
     color: var(--white-page);
 }
+
+.agency_name p:nth-child(2) {
+    font-family: 'Bruno Ace', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: var(--white-page);
+    text-align: center;
+}
 .header_right {
     width: auto;
     height: 60px;

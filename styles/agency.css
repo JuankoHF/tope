@@ -1,0 +1,755 @@
+@import './global.css';
+
+.nav_identity_pages {
+    width: 50%;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.nav_item_menu_pages {
+    display: none;
+}
+.content_item_plans_menu {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    background-color: var(--white-page);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 16px;
+    gap: 8px;
+    z-index: 8;
+    border-radius: 0 0 0 12px;
+    clip-path: inset(0 0 100% 0);
+    transition: all 0.3s ease-in-out;
+}
+.ative_plans_item_menu {
+    clip-path: inset(0 0 0 0);
+    transition: all 0.6s ease-in-out;
+}
+.active_plans_menu_icon {
+    transform: rotateX(180deg);
+    transition: all 0.6s ease-in-out;
+}
+.welcome_agency {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.over_bg_card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(27 27 27 / 51%);
+    padding: 100px 0 50px;
+    z-index: 5;
+}
+.content_welcome_flex {
+    width: 80%;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+ 
+}
+.content_circles {
+    width: 100%;
+    height: 240px;
+    position: relative;
+    display: flex;
+}
+.line_orange  {
+    width: 120px;
+    height: 2px;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.small_circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--secundary-color);
+    position: absolute;
+    top: 0px;
+    right: 0;
+
+}
+
+.big_circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: var(--secundary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.big_circle img {
+    width: 80px;
+    height: 90px;
+}
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rotateText 10s linear infinite;
+}
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.text p {
+    color: var(--white-page);
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.4rem;
+    transform-origin: 0 90px;
+}
+
+.text_and_action {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.text_and_action p {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: var(--white-page);
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: solid 1px var(--white-page);
+}
+
+.content_bottons_link {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.content_bottons_link a{
+    width: 230px;
+    height: 28px;
+    text-decoration: none;
+    background-color: #dd3605;
+    color: var(--white-page);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+}
+
+.welcome_agency h1 {
+    text-align: center;
+    width: 80%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--white-page);
+    opacity: 0.8;
+    overflow-y: hidden
+    ;
+}
+.bg_cards {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2px;
+}
+.card_clear {
+    background-color: var(--section-clear);
+}
+
+.car1 {
+    animation: car1 26s linear infinite;
+}
+.car2 {
+    animation: car2 26s linear infinite;
+}
+.car3 {
+    animation: car3 26s linear infinite;
+}
+
+.car4 {
+    animation: car4 26s linear infinite;
+}
+
+
+@keyframes car1 {
+    0% {
+        width: 100%;
+        height: 100%;
+    }
+    10% {
+        width: 100%;
+        height: 100%;
+    }
+    16% {
+        clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    }
+    24% {
+        clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    }
+    26% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    29% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        background-color: var(--section-clear);
+    }
+    30% {
+        background-color: transparent;
+    }
+    60% {
+        background-color: transparent;
+    }
+    61% {
+        background-color: var(--secundary-color);
+    }
+    78% {
+        background-color: var(--secundary-color);
+    }
+    79% {
+        background-color: transparent;
+    }
+    86% {
+        background-color: transparent;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    87% {
+        background-color: var(--quaternary-color);
+        clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    }
+    93% {
+        background-color: var(--quaternary-color);
+        clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    }
+    94% {
+        background-color: transparent;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    98% {
+        background-color: transparent;   
+    }
+    100% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);    
+    }
+}
+
+@keyframes car2 {
+    0% {
+        width: 100%;
+        height: 100%;
+    }
+    12% {
+        width: 100%;
+        height: 100%;
+    }
+    18% {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%);
+    }
+    24% {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%);
+    }
+    26% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    34% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        background-color: var(--section-clear);
+    }
+    35% {
+        background-color: transparent;
+    }
+    40% {
+        background-color: transparent;
+    }
+    41% {
+        background-color: var(--primary-color);
+    }
+    65% {
+        background-color: var(--primary-color);
+    }
+    66% {
+        background-color: transparent;
+    }
+    70% {
+        background-color: transparent;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    71% {
+        background-color: var(--tertiary-color);
+        clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    }
+    80% {
+        background-color: var(--tertiary-color);
+        clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    }
+    81% {
+        background-color: transparent;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    95% {
+        background-color: transparent;   
+    }
+    97% {
+        background-color: var(--section-clear);   
+    }
+    100% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);    
+    }
+}
+@keyframes car3 {
+    0% {
+        width: 100%;
+        height: 100%;
+    }
+    16% {
+        width: 100%;
+        height: 100%;
+    }
+    22% {
+        clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);    
+    }
+    24% {
+        clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);    
+    }
+    26% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    45% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        background-color: var(--section-clear);
+    }
+    46% {
+        background-color: transparent;
+    }
+    55% {
+        background-color: transparent;
+    }
+    56% {
+        background-color: var(--quaternary-color);
+    }
+    75% {
+        background-color: var(--quaternary-color);
+    }
+    76% {
+        background-color: transparent;
+    }
+    74% {
+        background-color: transparent;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    75% {
+        background-color: var(--section-clear);
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    }
+    85% {
+        background-color: var(--tertiary-color);
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    }
+    86% {
+        background-color: transparent;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    99% {
+        background-color: transparent;   
+    }
+    100% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);    
+    }
+
+}
+@keyframes car4 {
+    0% {
+        width: 100%;
+        height: 100%;
+    }
+    14% {
+        width: 100%;
+        height: 100%;
+    }
+    20% {
+        clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);    
+    }
+    24% {
+        clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);    
+    }
+    26% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    33% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        background-color: var(--section-clear);
+    }
+    34% {
+        background-color: transparent;
+    }
+    53% {
+        background-color: transparent;
+    }
+    54% {
+        background-color: var(--secundary-color);
+    }
+    65% {
+        background-color: var(--secundary-color);
+    }
+    66% {
+        background-color: transparent;
+    }
+    80% {
+        background-color: transparent;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    81% {
+        background-color: var(--section-clear);
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    }
+    90% {
+        background-color: var(--section-clear);
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    }
+    91% {
+        background-color: transparent;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    94% {
+        background-color: transparent;   
+    }
+    95% {
+        background-color: var(--section-clear);   
+    }
+    100% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);    
+    }
+}
+@media screen and (min-width: 700px) and (min-height: 510px){
+    .over_bg_card {
+        padding: 140px 0 60px;
+    }
+    .content_welcome_flex {
+        gap: 60px;
+    }
+    .content_circles {
+        height: 340px;
+    }
+    .line_orange {
+        width: 220px;
+    }
+    .small_circle {
+        width: 20px;
+        height: 20px;
+    }
+    .big_circle {
+        width: 220px;
+        height: 220px;
+        top: 60px;
+        left: 50px 
+    }
+    .circle {
+        width: 240px;
+        height: 240px;
+        top: 50px;
+        left: 120px;
+        overflow: hidden;
+    }
+    
+    .text span {
+        position: absolute;
+        left: 50%;
+        font-size: 1.8rem;
+        transform-origin: 0 120px;
+    }
+    .text_and_action p {
+        font-size: 2.8rem;
+        letter-spacing: 1.2px;
+        padding-bottom: 30px;
+    }
+    .content_bottons_link {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 12px;
+        margin-top: 30px;
+    }
+    .content_bottons_link a {
+        width: 260px;
+        height: 40px;
+        font-size: 1.4rem;
+        font-weight: 600;
+        border-radius: 8px;
+    }
+    .welcome_agency h1 {
+        font-size: 2rem;
+        letter-spacing: 0.8px;
+    }
+}
+
+@media screen and (min-width: 830px) and (max-height: 500px) {
+    .over_bg_card {
+        padding: 90px 0 40px;
+    }
+    .content_welcome_flex {
+        flex-direction: row;
+        gap: 28px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .over_bg_card {
+        padding: 160px 0 100px;
+    }
+    .content_welcome_flex {
+        gap: 140px;
+    }
+    .content_circles {
+        height: 380px;
+    }
+    .small_circle {
+        width: 24px;
+        height: 24px;
+    }
+    .big_circle {
+        width: 280px;
+        height: 280px;
+        top: 80px;
+        left: 100px 
+    }
+    .circle {
+        width: 300px;
+        height: 300px;
+        top: 70px;
+        left: 180px;
+        overflow: hidden;
+    }
+    
+    .text span {
+        position: absolute;
+        left: 50%;
+        font-size: 2.2rem;
+        transform-origin: 0 150px;
+    }
+    .text_and_action p {
+        font-size: 3.4rem;
+        letter-spacing: 1.6px;
+        padding-bottom: 30px;
+    }
+    .content_bottons_link a {
+        width: 340px;
+        height: 52px;
+        font-size: 1.8rem;
+        border-radius: 10px;
+    }
+    .welcome_agency h1 {
+        font-size: 2.4rem;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .nav_identity_pages {
+        width: 80%;
+    }
+    .content_item_plans_menu {
+        display: none;
+    }
+    .nav_identity_pages a {
+        width: 18px;
+        height: 18px;
+    }
+    .nav_item_menu_pages {
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 12px;
+        padding: 0px 0px 0 20px;
+    }
+    .nav_item_menu_pages a {
+        width: auto;
+        height: 60%;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 4px;
+        color: var(--white-page);
+        font-size: 1.4rem;
+    }
+    .nav_item_menu_pages a:hover {
+        opacity: 1;
+        margin-bottom: 8px;
+    }
+    .over_bg_card {
+        padding: 100px 0 60px;
+    }
+    .content_welcome_flex {
+        flex-direction: row;
+        gap: 60px;
+    }
+    .big_circle {
+        width: 220px;
+        height: 220px;
+        top: 60px;
+        left: 50px;
+    }
+    .circle {
+        width: 240px;
+        height: 240px;
+        top: 50px;
+        left: 120px;
+        overflow: hidden;
+    }
+    .text span {
+        position: absolute;
+        left: 50%;
+        font-size: 1.8rem;
+        transform-origin: 0 120px;
+    }
+    .text_and_action p {
+        font-size: 2.8rem;
+        letter-spacing: 1.2px;
+        padding-bottom: 30px;
+    }
+    .content_bottons_link a {
+        width: 260px;
+        height: 40px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 8px;
+    }
+    .welcome_agency h1 {
+        font-size: 2rem;
+        letter-spacing: 0.8px;
+    }
+}
+@media screen and (min-width: 1900px) {
+    
+    .nav_item_menu_pages {
+        gap: 16px;
+        padding: 0px 0px 0 40px;
+    }
+    .nav_item_menu_pages a {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 4px;
+        color: var(--white-page);
+        font-size: 1.4rem;
+    }
+
+    .over_bg_card {
+        padding: 120px 0 60px;
+    }
+    .content_welcome_flex {
+        max-width: 1500px;
+    }
+    .content_circles {
+        height: 500px;
+    }
+    .line_orange {
+        width: 260px;
+    }
+    .big_circle {
+        width: 280px;
+        height: 280px;
+        top: 80px;
+        left: 100px 
+    }
+    .circle {
+        width: 300px;
+        height: 300px;
+        top: 70px;
+        left: 180px;
+        overflow: hidden;
+    }
+    
+    .text span {
+        position: absolute;
+        left: 50%;
+        font-size: 2.2rem;
+        transform-origin: 0 150px;
+    }
+    .text_and_action p {
+        font-size: 3.4rem;
+        letter-spacing: 1.6px;
+        padding-bottom: 30px;
+    }
+    .content_bottons_link a {
+        width: 340px;
+        height: 52px;
+        font-size: 1.8rem;
+        border-radius: 10px;
+    }
+    .welcome_agency h1 {
+        font-size: 2.4rem;
+        letter-spacing: 1px;
+    }
+    .content_tope_description {
+        width: 80%;
+        max-width: 900px;
+    }
+    .content_tope_description p {
+        font-size: 2rem;
+        text-align: justify;
+    }
+}

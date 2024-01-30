@@ -346,6 +346,16 @@
         width: 24px;
         height: 32px;
     }
+
+    .seo_card .description_contaimer, 
+    .ads_card .description_contaimer, 
+    .media_card .description_contaimer, 
+    .web_card .description_contaimer {
+        height: 130px;
+    }
+    .image_card_tope {
+        height: 250px;
+    }
 }
 
 @media screen  and (min-width: 830px)  and (max-height: 500px){
@@ -390,6 +400,12 @@
 
     .description_card {
         display: none;
+    }
+    .seo_card .description_contaimer, 
+    .ads_card .description_contaimer, 
+    .media_card .description_contaimer, 
+    .web_card .description_contaimer {
+        height: 170px;
     }
 }
 @media screen and (min-width: 1000px) {
@@ -499,6 +515,12 @@
 
     .description_chequed p {
         font-size: 1rem;
+    }
+    .seo_card .description_contaimer, 
+    .ads_card .description_contaimer, 
+    .media_card .description_contaimer, 
+    .web_card .description_contaimer {
+        height: 150px;
     }
 }
 @media screen and (min-width: 1600px) {
@@ -638,5 +660,8 @@
     .seo_card .description_contaimer p, .ads_card .description_contaimer p,
     .media_card .description_contaimer p, .web_card .description_contaimer p {
     font-size: 2rem;
+    }
+    .seo_card .description_card, .ads_card .description_card, .media_card .description_card, .web_card .description_card {
+        height: 150px;
     }
 }

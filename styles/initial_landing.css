@@ -162,7 +162,7 @@
 }
 
 .get_budget {
-    width: 320px;
+    width: 328px;
     height: 30px;
     display: flex;
     justify-content: center;
@@ -175,7 +175,7 @@
 
 .get_budget a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--white-page);
 }
 

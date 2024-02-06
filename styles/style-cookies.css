@@ -1,0 +1,104 @@
+@import './global.css';
+.wrapper{
+  width: 80%;
+  max-width: 400px;
+  position: fixed;
+  bottom: 30px;
+  left: 16px;
+  background: var(--section-blog);
+  padding: 25px 20px 30px 20px;
+  border-radius: 12px;
+  box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.15);
+  text-align: center;
+  z-index: 10;
+}
+.wrapper.hide{
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+::selection{
+  color: #fff;
+  background: #FCBA7F;
+}
+.wrapper img{
+  max-width: 50px;
+}
+.content_text_cookies span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.content_text_cookies{
+  margin-top: 10px;
+}
+.content_text_cookies p{
+  color: black;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  margin: 5px 0 20px 0;
+}
+.content_text_cookies .buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons button{
+  padding: 8px 28px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.buttons button:hover{
+  transform: scale(0.97);
+}
+.buttons .item{
+  margin: 0 6px;
+}
+.buttons a{
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1200px)  {
+  .wrapper{
+    max-width: 450px;
+    bottom: 40px;
+    left: 40px;
+    padding: 32px 32px 36px 32px;
+  }
+  .wrapper img{
+    max-width: 60px;
+  }
+  .content_text_cookies span{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .content_text_cookies{
+    margin-top: 16px;
+  }
+  .content_text_cookies p{
+    font-size: 1.4rem;
+    margin: 8px 0 20px 0;
+  }
+  .buttons .item {
+    margin: 0 16px;
+  }
+  .buttons button {
+    padding: 8px 36px;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    border-radius: 8px;
+  }
+  .buttons a {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+  }
+}

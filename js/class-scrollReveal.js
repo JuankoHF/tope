@@ -1,14 +1,14 @@
 window.sr =ScrollReveal();
 
-    sr.reveal('.header_left', {
-        duration: 2000,
-        origin: 'bottom',
-        distance: '-100px'
-    });
+    // sr.reveal('.header_left', {
+    //     duration: 2000,
+    //     origin: 'bottom',
+    //     distance: '-100px'
+    // });
 
-    sr.reveal('.header_right', {
-        duration: 4000,
-    });
+    // sr.reveal('.header_right', {
+    //     duration: 4000,
+    // });
 
     sr.reveal('.get_budget', {
         duration: 3000,

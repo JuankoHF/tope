@@ -83,7 +83,7 @@
 }
 .step p {
     width: 35%;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     opacity: 0.6;
     color: var(--white-page);
 }
@@ -158,7 +158,7 @@
         height: 100px;
     }
     .step p {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
     .text_marketing {
         gap: 16px;
@@ -221,7 +221,7 @@
         height: 120px;
     }
     .step p {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
     }
 
     .text_marketing h3 {

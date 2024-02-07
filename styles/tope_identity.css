@@ -26,7 +26,7 @@
     font-family: 'Bruno Ace', sans-serif;
     font-size: 1.4rem;
     letter-spacing: 1.4px;
-    background-color: var(--secundary-color);
+    background-color: black;
     color: var(--white-page);
     padding: 4px 14px;
     border-radius: 8px;
@@ -191,12 +191,12 @@
     color: var(--white-page);
     margin-bottom: 28px;
 }
-.content_tope_description h1 strong {
+/* .content_tope_description h1 strong {
     font-family: 'Bruno Ace', sans-serif;
     color: var(--primary-color);
     font-size: 2rem;
     letter-spacing: 1.2px;
-}
+} */
 
 .emphasize_description {
     width: 100%;
@@ -207,7 +207,6 @@
     font-size: 1.6rem;
     color: var(--secundary-color);
     margin-bottom: 12px;
-    text-transform: capitalize;
 }
 
 .opacity_description_geen {

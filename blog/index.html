@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://topedigital.com/styles/blog-from-page.css?22012024">
     <link rel="stylesheet" href="https://topedigital.com/styles/contact.css?22012024">
     <link rel="stylesheet" href="https://topedigital.com/styles/initial_landing.css?22012024">
-
+    <link rel="stylesheet" href="https://topedigital.com/styles/style-cookies.css?06022024">
     <title>TOPE-Blog</title>
 
     <!-- Google tag (gtag.js) -->
@@ -100,6 +100,20 @@
        
     </header>
     <main>
+        <div class="wrapper">
+            <img src="../icons/cookie.png" alt="cookie">
+            <div class="content_text_cookies">
+              <span>Consentimiento de Cookies</span>
+              <p>
+                Este sitio web utiliza cookies propias y de terceros, para garantizar la 
+                mejor experiencia en la navegación.
+              </p>
+              <div class="buttons">
+                <button class="item">Acepto</button>
+                <a href="../pages/legal.html" class="item">Leer sobre cookies</a>
+              </div>
+            </div>
+        </div>
         <div class="articles_content">
             <div class="intro_article" id="scrollEfect">
 
@@ -197,13 +211,30 @@
                 </p>
             </div>
             <div class="icons_company">
-                <img src="https://topedigital.com/images/logo_TOPE_orange.png" alt="">
-                <object data="https://topedigital.com/icons/jnk.svg" class="jnk" type=""></object>
+                <img src="https://topedigital.com/images/logo_TOPE_orange.png" alt="logotipo de TOPE digital">
+                <object data="https://topedigital.com/icons/jnk.svg" class="jnk" title="logotipo de juanko" type=""></object>
             </div>
         </div>
     </footer>
     
 
     <script src="https://topedigital.com/js/blog.js"></script>
+    <script>
+        const cookieBox = document.querySelector(".wrapper"),
+        acceptBtn = cookieBox.querySelector("button");
+    
+        acceptBtn.onclick = ()=>{
+          //setting cookie for 1 month, after one month it'll be expired automatically
+          document.cookie = "CookieBy=TOPEdigital; max-age="+60*60*24*365;
+          if(document.cookie){ //if cookie is set
+            cookieBox.classList.add("hide"); //hide cookie box
+          }else{ //if cookie not set then alert an error
+            alert("¡No se pueden configurar cookies! Desbloquee este sitio desde la configuración de cookies de su navegador.");
+          }
+        }
+        let checkCookie = document.cookie.indexOf("CookieBy=TOPEdigital"); //checking our cookie
+        //if cookie is set then hide the cookie box else show it
+        checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+    </script>
 </body>
 </html>

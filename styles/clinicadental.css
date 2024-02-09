@@ -30,8 +30,8 @@ header {
     gap: 20px;
     align-items: flex-start;
     justify-content: center;
-    padding-left: 5vw;
-    background-color: black;
+    padding-left: 4vw;
+    background-color: var(--clinicas-primary);
 }
 .header_left_top {
     width: auto;
@@ -50,13 +50,14 @@ header {
 }
 .header_left_botton p {
     font-family: 'Bruno Ace', sans-serif;
-    font-size: 2.8rem;
-    letter-spacing: 2px;
+    font-size: 2.2rem;
+    letter-spacing: 1.6px;
     color: var(--primary-color);
 }
 .header_left_botton p strong {
-    padding: 0 2px 0 5px;
-    border-radius: 8px;
+    padding: 0 2px 0 3px;
+    border-radius: 6px;
+    margin-right: 1px;
     background-color: var(--white-page);
 }
 
@@ -133,7 +134,7 @@ header {
 }
 
 .header_right_botton a {
-    width: 44px;
+    width: auto;
     height: 28px;
     display: flex;
     align-items: center;
@@ -151,7 +152,7 @@ header {
     justify-content: center;
 }
 .article_content {
-    width: 90px;
+    width: auto;
     height: 28px;
     display: flex;
     align-items: center;
@@ -233,161 +234,83 @@ header {
     color: var(--white-page);
 }
 
-.articles_content {
+.work_agency {
     width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 8px;
-    padding: 160px 0 40px;
+    gap: 28px;
+    padding: 180px 0 40px;
 }
 
-.intro_article {
+.text_marketing {
     width: 90%;
-    max-width: 1000px;
-    height: 220px;
-    position: relative;
-    display: flex;
-    background-image: url(../images/logo-tope-en-tablet.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 16px;
-}
-
-.intro_text_content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 16px 12px;
-    background-color: #323d49e0;
-}
-.intro_text_content h1 {
-    color: var(--white-page);
-    font-size: 1.6rem;
-    text-align: center;
-}
-
-.intro_text_content h1 strong {
-    color: var(--primary-color);
-    font-family: 'Bruno Ace', sans-serif;
-    font-size: 1.8rem;
-    letter-spacing: 0.8px;
-}
-
-.intro_text_content p {
-    color: var(--white-page);
-    font-size: 1.1rem;
-    text-align: center;
-}
-
-/* CARDS A PARTIR DE AQUI */
-
-.separator-line {
-    width: 80%;
-    max-width: 860px;
-    height: 1px;
-    background-color: var(--section-blog);
-}
-
-.card_article {
-    width: 80%;
-    max-width: 860px;
+    max-width: 600px;
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     justify-content: flex-start;
     align-items: center;
-    padding: 12px 14px;
+    gap: 16px;
 }
-.images_top {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    position: relative;
+.text_marketing h1 {
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
 }
 
-.images_top img {
+.text_marketing h2 {
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: var(--secundary-color);
+}
+.text_marketing p {
+    font-size: 1.6rem;
+    color: black;
+    text-align: center;
+}
+
+.text_marketing a {
+    text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--white-page);
+    padding: 4px 24px;
+    border-radius: 14px;
+    background-color: var(--secundary-color);
+}
+.image_dentist {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.image_content {
+    width: 100%;
+    height: 300px;
+    padding: 6px 10px 10px 6px;
+    border-radius: 14px;
+    background-color: var(--secundary-color);
+    display: flex;
+}
+.image_content img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: left;
-
+    border-radius: 8px;
 }
 
-.tittle_article {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5% 8%;
-}
-.tittle_article h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.8rem;
-    letter-spacing: 0.6px;
-}
-.tittle_article h3 {
-    font-size: 1.2rem;
-}
-.content_body_article {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-.content_body_article a {
-    color: var(--primary-color);
-    font-size: 1.6rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.content_body_article h2 {
-    font-size: 1.4rem;
-    color: black;
-}
-.content_body_article p {
-    font-size: 1.2rem;
-    color: var(--section-clear);
-}
-.content_body_article .view_more {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-size: 1.2rem;
-    color: black;
-    text-transform: none;
-    text-decoration: none;
-    line-height: 20px;
-}
-.view_more span {
-    width: 20px;
-    height: 20px;
-    display: block;
-    background-image: url(../icons/down-arrow-negro.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: rotate(-90deg);
-}
+
+
 @media screen and (min-width: 400px) {
     .header_right_top {
         width: 92px;

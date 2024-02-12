@@ -274,7 +274,7 @@ header {
     text-align: center;
 }
 
-.text_marketing a {
+.text_marketing a, .contac_section_advanced a {
     text-decoration: none;
     font-size: 2rem;
     letter-spacing: 0.6px;
@@ -699,7 +699,75 @@ header {
     height: 18px;
     position: relative;
 }
-   
+
+.marketing_advanced {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #e2ebeb;
+}
+.marketing_advanced h2 {
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+    margin-bottom: 8px;
+}
+.content_excelent_card {
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+    padding: 28px 0;
+}
+.excelent_card {
+    width: 90%;
+    height: 260px;
+    padding: 32px 14px 24px;
+    background-color: var(--white-page);
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+.excelent_card h3 {
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: black;
+    margin-bottom: 16px;
+}
+.excelent_card p {
+    font-size: 1.4rem;
+    color: var(--section-blog);
+    text-align: center;
+}
+.contac_section_advanced {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contac_section_advanced h3 {
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+    margin-bottom: 28px
+}
+
+
+
 @keyframes jelly {
     from {
      transform: scale(1, 1);

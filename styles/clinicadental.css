@@ -285,7 +285,7 @@ header {
     border-radius: 14px;
     background-color: var(--secundary-color);
 }
-.image_dentist {
+.image_dentist, .Flex_image_form {
     width: 80%;
     max-width: 400px;
     height: auto;
@@ -294,7 +294,7 @@ header {
     justify-content: flex-start;
     align-items: center;
 }
-.image_content {
+.image_content, .content_image_form {
     width: 100%;
     height: 300px;
     padding: 6px 10px 10px 6px;
@@ -302,15 +302,438 @@ header {
     background-color: var(--secundary-color);
     display: flex;
 }
-.image_content img {
+.image_content img, .content_image_form img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
 }
 
+.clinic_service {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0;
+}
 
+.clinic_service h2 {
+    width: 80%;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+    margin-bottom: 28px;
+}
 
+.content_card_service {
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 32px 20px
+}
+.card_clinic_service {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+.content_image_card_clinic {
+    width: 100%;
+    height: 120px;
+    padding: 4px;
+    background-color: var(--secundary-color);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.content_image_card_clinic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.card_clinic_service p {
+    font-size: 1.6rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.card_clinic_service a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 6px 12px;
+    color: var(--white-page);
+    background-color: var(--secundary-color);
+    border-radius: 12px;
+    
+}
+.card_clinic_service a span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../icons/left-arrow-white.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.polygon_contact_clinic {
+    height: 250px;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    background-color: var(--clinicas-primary);
+    display: flex;
+    overflow: hidden;
+}
+
+.clinic_contact_right {
+    width: 56%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+    overflow: hidden;
+}
+.clinic_contact_right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+.form_clinic {
+    width: 100vw;
+    height: auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.header_form_clinic {
+    width: 90%;
+    height: auto;
+    max-width: 500px;
+}
+.header_form_clinic h2 {
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+.header_form_clinic p {
+    font-size: 1.6rem;
+    color: var(--secundary-color);
+    text-align: center;
+    font-weight: bold;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.message {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+}
+  
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+  
+.form label {
+    position: relative;
+}
+  
+.form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid var(--section-blog);
+    border-radius: 5px;
+}
+  
+.form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 1.2rem;
+    cursor: text;
+    transition: 0.3s ease;
+}
+.form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 1.2rem;
+}
+.form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secundary-color);
+}
+.form label .input:valid + span {
+    color: var(--secundary-color);
+}
+.input01 {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid var(--section-blog);
+    border-radius: 5px;
+}
+.form label .input01 + span {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    color: grey;
+    font-size: 1.2rem;
+    cursor: text;
+    transition: 0.3s ease;
+}
+.form label .input01:placeholder-shown + span {
+    top: 40px;
+    font-size: 1.2rem;
+}
+.form label .input01:focus + span,.form label .input01:valid + span {
+    top: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.form label .input01:valid + span {
+    color: var(--secundary-color);
+}
+.fancy {
+    background-color: transparent;
+    border: 2px solid #cacaca;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 390;
+    letter-spacing: 2px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 8px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
+}
+.fancy::before {
+    content: " ";
+    width: 1.7rem;
+    height: 2px;
+    background: var(--secundary-color);
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform: translateX(230%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+}
+.fancy .text {
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--secundary-color);
+    transform: translateX(30%);
+}
+  
+.fancy .top-key {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: white;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+.fancy .bottom-key-1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: white;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+.fancy .bottom-key-2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: white;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+  
+.fancy:hover {
+    color: white;
+    background: var(--section-blog);
+}
+.fancy:hover::before {
+    width: 1.5rem;
+    background: white;
+}
+.fancy:hover .text {
+    color: white;
+    padding-left: 1.5em;
+}
+.fancy:hover .top-key {
+    left: -2px;
+    width: 0px;
+}
+.fancy:hover .bottom-key-1,
+.fancy:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+}
+
+/* check box */
+
+.check_term {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    margin: 12px 0;
+}
+.go_temn {
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}
+.go_temn p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: normal;
+    text-wrap: nowrap;
+}
+.go_temn a {
+    text-decoration: none;
+    color: var(--secundary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+.cbx {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbx:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+.lbl {
+    margin-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#cbx:checked ~ .cbx {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbx:checked ~ .cbx:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+.cntr {
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+   
+@keyframes jelly {
+    from {
+     transform: scale(1, 1);
+    }
+   
+    30% {
+     transform: scale(1.25, 0.75);
+    }
+   
+    40% {
+     transform: scale(0.75, 1.25);
+    }
+   
+    50% {
+     transform: scale(1.15, 0.85);
+    }
+   
+    65% {
+     transform: scale(0.95, 1.05);
+    }
+   
+    75% {
+     transform: scale(1.05, 0.95);
+    }
+   
+    to {
+     transform: scale(1, 1);
+    }
+}
+   
+.hidden-xs-up {
+    display: none!important;
+}
+   
 @media screen and (min-width: 400px) {
     .header_right_top {
         width: 92px;

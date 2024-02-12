@@ -121,13 +121,134 @@
                 <h1>Marketing Digital para Clínicas Dentales</h1>
                 <h2>Atrae pacientes, capta clientes.</h2>
                 <p>Lleva las estrategias de marketing a tu gabinete</p>
-                <a href="">contactar</a>
+                <a href="#form">contactar</a>
             </div>
             <div class="image_dentist">
                 <div class="image_content">
                     <img src="../images/dentistas.webp" alt="foto de dentistas y auxiliar">
                 </div>
             </div>
+        </section>
+        <section class="clinic_service">
+            <h2>Servicios especializados para clínicas dentales</h2>
+
+            <div class="content_card_service">
+                <div class="card_clinic_service">
+                    <div class="content_image_card_clinic">
+                        <img src="../images/card__clinic_web.webp" alt="imagenes de IA ordenadores">
+                    </div>
+                    <p>Desarrollo Web</p>
+                    <a href="https://topedigital.com/pages/plans#to_web">Planes web <span></span></a>
+                </div>
+                <div class="card_clinic_service">
+                    <div class="content_image_card_clinic">
+                        <img src="../images/card_seo.jpeg" alt="imagenes de IA gráfica SEO">
+                    </div>
+                    <p>Posicionamineto</p>
+                    <a href="https://topedigital.com/pages/seo">Planes SEO <span></span></a>
+                </div>
+                <div class="card_clinic_service">
+                    <div class="content_image_card_clinic">
+                        <img src="../images/card_ads.jpeg" alt="imagenes de IA escaleras hacia google">
+                    </div>
+                    <p>Publicidad</p>
+                    <a href="https://topedigital.com/pages/plans#ads">Planes ads <span></span></a>
+                </div>
+                <div class="card_clinic_service">
+                    <div class="content_image_card_clinic">
+                        <img src="../images/card_rs.jpeg" alt="imagenes de IA smartphone y logo de redes sociales">
+                    </div>
+                    <p>RRSS</p>
+                    <a href="https://topedigital.com/pages/plans#social">Planes RRSS<span></span></a>
+                </div>
+            </div>
+        </section>
+        <section class="tope_identity" id="scroledStop">
+            
+            <div class="content_tope_contact">
+               <div class="polygon_contact_clinic">
+                    <div class="tope_contact_left">
+                        <h3>Te atenderemos siempre</h3>
+
+                        <ul>
+                            <li><strong>Teléfono</strong></li>
+                            <li>+34 626708613</li>
+                            <li class="line_separator"></li>
+                            <li><strong>Correo electrónico</strong></li>
+                            <li><a href="mailto:ceo@topedigital.com">ceo@topedigital.com</a></li>
+                            <li><a href="mailto:herferjuan9003@gmail.com">herferjuan9003@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="clinic_contact_right">
+                        <img src="../images/bck_green_tabltMovil.webp" alt="moviles y tablet con imagen del sitio web blog de tope">
+                    </div>
+               </div>
+            </div>
+        </section>
+        <section class="form_clinic">
+            <div class="header_form_clinic">
+                <h2>Hacemos Marketing Dental</h2>
+                <p>Envíenos su consulta</p>
+                <form class="form" id="form">
+    
+                    <div class="flex">
+                        <label>
+                            <input required placeholder="" type="text" class="input" name="name">
+                            <span>Nombre completo</span>
+                        </label>
+                
+                        <label>
+                            <input required placeholder="" type="text" class="input" name="phone">
+                            <span>Teléfono de contato</span>
+                        </label>
+                    </div>  
+                            
+                    <label>
+                        <input required placeholder="" type="email" class="input" name="email">
+                        <span>Email</span>
+                    </label> 
+                        
+                    <label>
+                        <input type="tel" placeholder="" class="input" name="webSite">
+                        <span>Página web (si ya tiene una)</span>
+                    </label>
+                    <label>
+                        <textarea required rows="3" placeholder="" class="input01" name="message"></textarea>
+                        <span>¿Cómo podemos ayudar?</span>
+                    </label>
+                    <div class="check_term">
+                        <div class="cntr">
+                            <input type="checkbox" id="cbx" class="hidden-xs-up" name="checkbox" required>
+                            <label for="cbx" class="cbx"></label>
+                        </div>
+                        <div class="go_temn">
+                            <p>He leído y Acepto la</p>
+                            <a href="https://topedigital.com/pages/legal#protection">política de privacidad</a>
+                        </div>
+                    </div>
+                    
+                    <button class="fancy" type="submit" id="button">
+                      <span class="top-key"></span>
+                      <span class="text">Enviar</span>
+                      <span class="bottom-key-1"></span>
+                      <span class="bottom-key-2"></span>
+                    </button>
+                </form>
+                <script type="text/javascript"
+                   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+                </script>
+    
+                <script type="text/javascript">
+                  emailjs.init('hALViE8cnISQHVeOA')
+                </script>
+            </div>
+            <div class="Flex_image_form">
+                <div class="content_image_form">
+                    <img src="../images/dos_dentistas.webp" alt="dos dentistas sonriendo en una clinica">
+                </div>
+            </div>
+            
+            
         </section>
     </main>
 
@@ -149,6 +270,29 @@
         let checkCookie = document.cookie.indexOf("CookieBy=TOPEdigital"); //checking our cookie
         //if cookie is set then hide the cookie box else show it
         checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+    </script>
+
+    <script>
+       const btn = document.getElementById('button');
+
+       document.getElementById('form')
+       .addEventListener('submit', function(event) {
+       event.preventDefault();
+
+       btn.value = 'Enviando...';
+
+       const serviceID = 'default_service';
+       const templateID = 'template_obvuub9';
+
+       emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+        btn.value = 'Enviar';
+        alert('¡Mensaje enviado correctamente!');
+        }, (err) => {
+        btn.value = 'Enviar';
+        alert(JSON.stringify(err));
+        });
+       });
     </script>
 </body>
 </html>

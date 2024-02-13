@@ -426,6 +426,10 @@ header {
     width: 90%;
     height: auto;
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .header_form_clinic h2 {
     font-size: 2.6rem;
@@ -860,14 +864,6 @@ footer {
         width: 28px;
         height: 28px;
     }
-    .go_plans {
-        width: 160px;
-        height: 116px;
-        padding: 12px 8px 12px 16px;
-    }
-    .go_plans a {
-        font-size: 1.4rem;
-    }
     .header_right_botton {
         padding-right: 10vw;
     }
@@ -882,6 +878,14 @@ footer {
         font-size: 2.6rem;
         letter-spacing: 1.4px;
         padding: 4px;
+    }
+    .go_plans {
+        width: 160px;
+        height: 116px;
+        padding: 12px 8px 12px 16px;
+    }
+    .go_plans a {
+        font-size: 1.4rem;
     }
     .article_content {
         width: 144px;
@@ -912,57 +916,117 @@ footer {
     .blog_nav_item_menu ul li a {
         font-size: 1.4rem;
     }
-    .articles_content {
-        gap: 12px;
-        padding: 230px 0 40px;
+    .work_agency {
+        gap: 40px;
+        padding: 240px 0 60px;
     }
-    .intro_text_content {
-        gap: 36px;
-        padding: 20px 28px;
+    .text_marketing {
+        width: 80%;
+        max-width: 600px;
+        gap: 24px;
     }
-    .intro_text_content h1 {
+    .text_marketing h1 {
+        font-size: 3rem;
+        letter-spacing: 1.2px;
+    }
+    .text_marketing h2 {
+        font-size: 2.4rem;
+        letter-spacing: 0.8px;
+    }
+    .text_marketing p {
         font-size: 2rem;
     }
-    .intro_text_content p {
-        font-size: 1.4rem;
-    }
-
-    .card_article {
-        gap: 28px;
-        padding: 12px 24px;
-    }
-    .images_top {
-        height: 220px;
-    }
-    .tittle_article {
-        align-items: flex-start;
-        padding: 3% 7%;
-    }
-    .tittle_article h2 {
+    .text_marketing a, .contac_section_advanced a {
         font-size: 2.4rem;
         letter-spacing: 1px;
+        padding: 8px 32px;
+        border-radius: 16px;
     }
-    .tittle_article h3 {
+    .image_content, .content_image_form {
+        width: 100%;
+        height: 380px;
+        padding: 8px 12px 12px 8px;
+    }
+    .clinic_service {
+        padding: 20px 0 60px;
+    }
+    .clinic_service h2 {
+        width: 80%;
+        font-size: 3rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 40px;
+    }
+    .content_card_service {
+        gap: 40px 40px;
+    }
+    .card_clinic_service {
+        gap: 20px;
+    }
+    .content_image_card_clinic {
+        height: 220px;
+    }
+    .card_clinic_service p {
         font-size: 2rem;
     }
-    .content_body_article a {
-        font-size: 2rem;
-        letter-spacing: 0.4px;
+    .card_clinic_service a {
+        font-size: 1.8rem;
+        gap: 3px;
+        padding: 8px 24px;
+        border-radius: 14px;
     }
-    .content_body_article h2 {
+    .card_clinic_service a span {
+        width: 20px;
+        height: 20px;
+    }
+    .polygon_contact_clinic {
+        height: 340px;
+    }
+    .form_clinic {
+        padding: 60px 0;
+        gap: 40px;
+    }
+    .header_form_clinic h2 {
+        font-size: 3rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 40px;
+    }
+    .header_form_clinic p {
         font-size: 1.8rem;
     }
-    .content_body_article p {
-        font-size: 1.6rem;
+    .form {
+        gap: 16px;
     }
-
-    .content_body_article .view_more {
-        font-size: 1.6rem;
-        line-height: 24px;
+    .marketing_advanced {
+        padding: 60px 0 60px;
     }
-    .view_more span {
-        width: 24px;
-        height: 24px;
+    .marketing_advanced h2 {
+        font-size: 3rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 12px;
+    }
+    .content_excelent_card {
+        width: 80%;
+        max-width: 1400px;
+        gap: 40px;
+        padding: 40px 0;
+    }
+    .excelent_card {
+        width: 80%;
+        height: 280px;
+        padding: 40px 24px 24px;
+    }
+    .excelent_card h3 {
+        font-size: 2.4rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 24px;
+    }
+    .excelent_card p {
+        font-size: 1.8rem;
+    }
+    .contac_section_advanced h3 {
+        font-size: 3rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 40px;
     }
 }
 @media screen and (min-width: 830px) and (max-height: 500px) {

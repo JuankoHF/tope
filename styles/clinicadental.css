@@ -1342,6 +1342,243 @@ footer {
     }
     .blog_nav_item_menu,
     .no_active {
-        right: 40vw;
+        right: 43vw;
+    }
+    .work_agency {
+        gap: 120px;
+        padding: 240px 0 80px;
+        min-height: 100vh;
+    }
+    .image_dentist, .Flex_image_form {
+        width: 50%;
+        max-width: 640px;
+    }
+    .image_content, .content_image_form {
+        width: 100%;
+        height: 640px;
+        padding: 8px 12px 12px 8px;
+    }
+    .text_marketing {
+        gap: 40px;
+        max-width: 700px;
+    }
+    .text_marketing h1 {
+        font-size: 4rem;
+        letter-spacing: 1.4px;
+    }
+    .text_marketing h2 {
+        font-size: 3.4rem;
+        letter-spacing: 1.2px;
+    }
+    .text_marketing p {
+        font-size: 2.8rem;
+    }
+    .text_marketing a, .contac_section_advanced a {
+        font-size: 2.8rem;
+        padding: 10px 40px;
+    }
+    .clinic_service {
+        padding: 20px 0 80px;
+    }
+    .clinic_service h2 {
+        font-size: 4rem;
+        letter-spacing: 1.4px;
+        margin-bottom: 60px;
+    }
+    .content_card_service {
+        gap: 80px;
+        max-width: 1500px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+    }
+    .card_clinic_service {
+        gap: 36px;
+    }
+    .content_image_card_clinic {
+        height: 260px;
+        padding: 6px;
+    }
+    .card_clinic_service p {
+        font-size: 2.8rem;
+    }
+    .card_clinic_service a {
+        font-size: 2.4rem;
+        gap: 4px;
+        padding: 10px 36px;
+        border-radius: 16px;
+    }
+    .card_clinic_service a span {
+        width: 24px;
+        height: 24px;
+    }
+    .polygon_contact_clinic {
+        height: 400px;
+    }
+    .clinic_contact_right {
+        width: 26%;
+        padding-right: 60px;
+    }
+    .form_clinic {
+        padding: 80px 0;
+        gap: 120px;
+    }
+    .header_form_clinic {
+        max-width: 600px;
+    }
+    .header_form_clinic h2 {
+        font-size: 4rem;
+        letter-spacing: 1.4px;
+        margin-bottom: 40px;
+    }
+    .header_form_clinic p {
+        font-size: 3.4rem;
+        letter-spacing: 1.2px;
+    }
+    .form {
+        gap: 24px;
+        padding: 40px 20px;
+        max-width: 480px;
+    }
+    .flex {
+        gap: 20px;
+    }
+    .form label {
+        position: relative;
+        width: 100%;
+    }
+    .form label .input {
+        width: 100%;
+        padding: 10px 10px 20px 16px;
+        outline: 0;
+        border: 2px solid var(--section-blog);
+        border-radius: 8px;
+        height: 60px;
+        font-size: 1.6rem;
+    }
+    .form label .input:placeholder-shown + span {
+        top: 20px;
+        font-size: 1.4rem;
+    }
+    .form label .input:focus + span, .form label .input:valid + span {
+        top: 40px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: var(--secundary-color);
+    }
+    .input01 {
+        width: 100%;
+        padding: 10px 10px 20px 16px;
+        outline: 0;
+        border: 2px solid var(--section-blog);
+        border-radius: 8px;
+        height: 120px;
+    }
+    .form label .input01:placeholder-shown + span {
+        top: 20px;
+        font-size: 1.6rem;
+    }
+    .form label .input01:focus + span {
+        top: 100px;
+        font-size: 1.2rem;
+    }
+    .cntr {
+        width: 28px;
+        height: 28px;
+        position: relative;
+    }
+    .cbx {
+        position: relative;
+        top: 1px;
+        width: 24px;
+        height: 24px;
+        border: 2px solid #c8ccd4;
+        border-radius: 3px;
+        transition: background 0.1s ease;
+        cursor: pointer;
+        display: block;
+    }
+    .cbx:after {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        width: 6px;
+        height: 12px;
+        opacity: 0;
+        transform: rotate(45deg) scale(0);
+        border-right: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        transition: all 0.3s ease;
+        transition-delay: 0.15s;
+    }
+    .go_temn p {
+        font-size: 1.6rem;
+    }
+    .go_temn a {
+        font-size: 1.6rem;
+    }
+    .fancy {
+        background-color: transparent;
+        border: 2px solid #cacaca;
+        border-radius: 0px;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 390;
+        letter-spacing: 2px;
+        margin: 0;
+        outline: none;
+        overflow: visible;
+        padding: 16px 30px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        text-transform: none;
+        transition: all 0.3s ease-in-out;
+        user-select: none;
+        font-size: 20px;
+    }
+    .fancy .text {
+        font-size: 1.125em;
+        font-weight: bold;
+        line-height: 1.33333em;
+        padding-left: 1em;
+        display: block;
+        text-align: left;
+        transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--secundary-color);
+        transform: translateX(30%);
+    }
+    .marketing_advanced {
+        padding: 80px 0;
+    }
+    .marketing_advanced h2 {
+        width: 60%;
+        font-size: 4rem;
+        letter-spacing: 1.4px;
+        margin-bottom: 30px;
+    }
+    .content_excelent_card {
+        gap: 56px;
+        padding: 50px 0;
+    }
+    .excelent_card {
+        width: 30%;
+        height: 360px;
+    }
+    .excelent_card h3 {
+        font-size: 2.6rem;
+        margin-bottom: 28px;
+    }
+    .excelent_card p {
+        font-size: 2rem;
+    }
+    .contac_section_advanced h3 {
+        font-size: 4rem;
+        letter-spacing: 1.4px;
+        margin-bottom: 60px;
     }
 }

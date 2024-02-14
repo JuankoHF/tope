@@ -334,6 +334,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
     gap: 32px 20px
 }
 .card_clinic_service {
@@ -1035,9 +1036,10 @@ footer {
         height: 130px;
     }
     .header_left {
-        width: 180px;
+        width: 210px;
         height: 130px;
         gap: 24px;
+        padding-left: 3vw;
     }
     .header_left_botton {
         height: 40px;
@@ -1093,7 +1095,7 @@ footer {
 
     .no_active {
         top: 150px;
-        right: 10vw;
+        right: 16vw;
     }
 
     .blog_nav_item_menu {
@@ -1110,35 +1112,40 @@ footer {
         gap: 8px;
         padding: 180px 0 40px;
     }
-    .intro_text_content {
-        gap: 36px;
-        padding: 20px 28px;
-    }
-    .intro_text_content h1 {
-        font-size: 2rem;
-    }
-    .intro_text_content p {
-        font-size: 1.4rem;
-    }
-    .card_article {
-        flex-direction: row;
-        padding: 12px 16px;
-        align-items: flex-start;
-    }
-    .images_top {
-        width: 50%;
-        height: 230px;
-    }
-    .images_top img {
-        object-position: center;
-    }
-    .tittle_article {
-        padding: 6% 8%;
-    }
-    .content_body_article {
-        gap: 8px;
-    }
     
+    .work_agency {
+        gap: 40px;
+        padding: 200px 0 40px;
+    }
+    .text_marketing {
+        width: 80%;
+        gap: 20px;
+    }
+    .content_card_service {
+        gap: 32px 40px;
+    }
+    .card_clinic_service {
+        max-width: 230px;
+    }
+    .content_image_card_clinic {
+        height: 180px;
+    }
+    .tope_contact_left {
+        padding: 36px 0 0 10%;
+    }
+    .content_excelent_card {
+        width: 90%;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 32px;
+        padding: 28px 0;
+        flex-wrap: wrap;
+    }
+    .excelent_card {
+        width: 46%;
+        height: 250px;
+    }
 }
 @media screen and (min-width: 1000px) {
     .header_left {

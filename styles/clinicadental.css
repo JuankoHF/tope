@@ -997,6 +997,9 @@ footer {
     .form {
         gap: 16px;
     }
+    .go_temn p {
+        font-size: 1.2rem;
+    }
     .marketing_advanced {
         padding: 60px 0 60px;
     }
@@ -1159,31 +1162,8 @@ footer {
     .articles_content {
         gap: 16px;
     }
-    .intro_article {
-        height: 300px;
-        margin-bottom: 32px;
-    }
-    .intro_text_content {
-        gap: 40px;
-        padding: 28px 60px;
-    }
-    .card_article {
-        flex-direction: row;
-        padding: 16px 28px;
-        align-items: flex-start;
-    }
-    .images_top {
-        width: 50%;
-        height: 280px;
-    }
-    .images_top img {
-        object-position: center;
-    }
-    .tittle_article {
-        padding: 6% 8%;
-    }
-    .content_body_article {
-        gap: 8px;
+    .excelent_card {
+        width: 60%;
     }
 }
 
@@ -1245,30 +1225,102 @@ footer {
         top: 168px;
         right: 35vw;
     }
-    .articles_content {
-        padding: 240px 0 60px;
+    .work_agency {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .text_marketing {
+        width: 50%;
+        max-width: 600px;
+        gap: 32px;
+    }
+    .text_marketing h1 {
+        font-size: 3.2rem;
+        letter-spacing: 1.2px;
+    }
+    .text_marketing h2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.8px;
+    }
+    .text_marketing p {
+        font-size: 2.2rem;
+    }
+    .image_dentist, .Flex_image_form {
+        width: 40%;
+        max-width: 460px;
+    }
+    .image_content, .content_image_form {
+        width: 100%;
+        height: 400px;
+        padding: 6px 10px 10px 6px;
+    }
+    .clinic_service h2 {
+        font-size: 3.2rem;
+        margin-bottom: 48px;
+    }
+    .content_card_service {
+        gap: 60px 40px;
+    }
+    .card_clinic_service {
+        gap: 28px;
+    }
+    .polygon_contact_clinic {
+        height: 380px;
+        justify-content: space-between;
+    }
+    .clinic_contact_right {
+        width: 34%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 26px;
+        overflow: hidden;
+    }
+    .tope_contact_left {
+        padding: 50px 0 0 16%;
     }
 
-    .intro_text_content {
-        gap: 40px;
-        padding: 32px 80px;
+    .header_form_clinic h2 {
+        font-size: 3.2rem;
     }
-    .intro_text_content h1 {
-        font-size: 2.8rem;
-        letter-spacing: 0.6px;
+
+    .form_clinic {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 60px;
     }
-    .intro_text_content h1 strong {
-        font-size: 3rem;
-        letter-spacing: 1px;
+    .marketing_advanced {
+        padding: 70px 0 70px;
     }
-    .intro_text_content p {
-        font-size: 2rem;
+    .marketing_advanced h2 {
+        font-size: 3.2rem;
+        margin-bottom: 20px;
     }
-    .images_top {
-        width: 60%;
-        height: 310px;
+    .content_excelent_card {
+        width: 90%;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 42px;
+        padding: 36px 0;
+        flex-wrap: wrap;
+    }
+    .excelent_card {
+        width: 46%;
+        height: 250px;
+    }
+    .excelent_card {
+        width: 30%;
+        height: 350px;
+    }
+    .contac_section_advanced h3 {
+        font-size: 3.2rem;
     }
 }
+
 @media screen and (min-width: 1900px) {
     .header_left {
         width: 300px;

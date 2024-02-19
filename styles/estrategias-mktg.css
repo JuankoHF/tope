@@ -147,3 +147,37 @@
     margin-bottom: 28px;
     border-radius: 16px;
 }
+@media screen and (min-width: 1200px) {
+    .header_form_clinic h3 {
+        font-size: 2.6rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 28px;
+    }
+    .link_actions {
+        padding-top: 60px;
+    }
+    .link_actions h2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 40px;
+    }
+    .link_actions p {
+        max-width: 1000px;
+        font-size: 1.6rem;
+        margin-bottom: 60px;
+        text-align: justify;
+    }
+    .content_link_action h3 {
+        text-align: center;
+        font-size: 2.2rem;
+        letter-spacing: 0.6px;
+        margin-bottom: 40px;
+    }
+    .content_link_action a {
+        width: 240px;
+        height: 48px;
+        font-size: 2rem;
+        margin-bottom: 36px;
+        border-radius: 20px;
+    }
+}

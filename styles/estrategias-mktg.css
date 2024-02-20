@@ -1,0 +1,183 @@
+@import './global.css';
+
+.header_form_clinic h3 {
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: var(--clinicas-primary);
+    margin-bottom: 20px;
+}
+
+
+.disabled_button {
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--section-dark);
+    background-color: #898b8d;
+    overflow: hidden;
+}
+.disabled_button p {
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.disabled_button span {
+    font-size: 1.6rem;
+    color: black;
+}
+.not_visible {
+    display: none;
+}
+.button {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #17795E;
+    background-color: var(--secundary-color);
+    overflow: hidden;
+}
+  
+.button, .button__icon, .button__text {
+    transition: all 0.3s;
+    text-decoration: none;
+}
+  
+.button .button__text {
+    transform: translateX(40px);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+  
+.button .button__icon {
+    position: absolute;
+    transform: translateX(150px);
+    height: 100%;
+    width: 50px;
+    background-color: #17795E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.button .svg {
+    width: 20px;
+    fill: #fff;
+}  
+.button:hover {
+    background: var(--clinicas-primary);
+}
+.button:hover .button__text {
+    color: transparent;
+}
+  
+.button:hover .button__icon {
+    width: 200px;
+    transform: translateX(0);
+}
+  
+.button:active .button__icon {
+    background-color: var(--secundary-color);
+}
+.button:active {
+    border: 1px solid var(--secundary-color);
+}
+
+.link_actions {
+    width: 100vw;
+    height: auto;
+    background-color: var(--clinicas-primary);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.link_actions h2 {
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+    color: var(--white-page);
+    margin-bottom: 20px;
+}
+.link_actions p {
+    width: 80%;
+    font-size: 1.2rem;
+    color: var(--white-page);
+    margin-bottom: 40px;
+}
+.content_link_action {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content_link_action h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 0.4px;
+    color: var(--white-page);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.content_link_action a {
+    text-decoration: none;
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: var(--white-page);
+    font-weight: bold;
+    background-color: var(--secundary-color);
+    margin-bottom: 28px;
+    border-radius: 16px;
+}
+@media screen and (min-width: 1200px) {
+    .header_form_clinic h3 {
+        font-size: 2.6rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 28px;
+    }
+    .link_actions {
+        padding-top: 60px;
+    }
+    .link_actions h2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 40px;
+    }
+    .link_actions p {
+        max-width: 1000px;
+        font-size: 1.6rem;
+        margin-bottom: 60px;
+        text-align: justify;
+    }
+    .content_link_action h3 {
+        text-align: center;
+        font-size: 2.2rem;
+        letter-spacing: 0.6px;
+        margin-bottom: 40px;
+    }
+    .content_link_action a {
+        width: 240px;
+        height: 48px;
+        font-size: 2rem;
+        margin-bottom: 36px;
+        border-radius: 20px;
+    }
+}

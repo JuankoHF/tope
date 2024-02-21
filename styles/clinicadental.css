@@ -1052,6 +1052,26 @@ footer {
     .header_form_clinic {
         width: 80%;
     }
+    .marketing_reference h2 {
+        width: 80%;
+    }
+    .marketing_reference p {
+        width: 80%;
+    }
+    .clinic_questions_answers {
+        width: 80%;
+        max-width: 1000px;
+        padding: 24px 8px;
+    }
+    .openAns2 {
+        height: 390px;
+    }
+    .openAns3 {
+        height: 190px;
+    }
+    .openAns4 {
+        height: 270px;
+    }
     .content_excelent_card {
         width: 85%;
     }

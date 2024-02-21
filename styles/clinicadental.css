@@ -1201,6 +1201,10 @@ footer {
         width: 80%;
         font-size: 3rem;
         letter-spacing: 1.2px;
+        margin-bottom: 20px;
+    }
+    .servis_description {
+        font-size: 1.8rem;
         margin-bottom: 40px;
     }
     .content_card_service {
@@ -1246,6 +1250,65 @@ footer {
     .go_temn p {
         font-size: 1.2rem;
     }
+    .special_and_download {
+        padding: 60px 0 40px;
+        gap: 20px;
+    }
+    .special_agency h2 {
+        font-size: 3rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 8px;
+    }
+    .special_agency p {
+        font-size: 1.8rem;
+    }
+    .card_download {
+        padding: 40px 28px;
+    }
+    .card_download p {
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+    }
+    .card_download h2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 16px;
+    }
+    .marketing_reference {
+        padding: 60px 0;
+    }
+    .marketing_reference h2 {
+        font-size: 3rem;
+        letter-spacing: 1.2px;
+        margin-bottom: 8px;
+    }
+    .marketing_reference p {
+        font-size: 1.8rem;
+        margin-bottom: 16px;
+    }
+    .clinic_questions_answers {
+        padding: 40px 24px;
+    }
+    .questions span {
+        width: 28px;
+        height: 28px;
+    }
+    .questions p {
+        font-size: 1.8rem;
+        margin: 0px;
+        width: 100%;
+    }
+    .answers1 p, .answers2 p, .answers3 p, .answers4 p {
+        margin: 0;
+        width: 100%;
+    }
+    .openAns1 {
+        height: 340px;
+    }
+    .openAns4 {
+        height: 280px;
+    }
+
     .marketing_advanced {
         padding: 60px 0 60px;
     }
@@ -1382,6 +1445,32 @@ footer {
     .tope_contact_left {
         padding: 36px 0 0 10%;
     }
+    .card_download {
+        height: 300px;
+        padding: 20px 16px;
+    }
+    .clinic_questions_answers {
+        padding: 24px 28px;
+    }
+    .questions p {
+        width: 100%;
+    }
+    .answers1 p, .answers2 p, .answers3 p, .answers4 p {
+        width: 100%;
+    }
+    .openAns1 {
+        height: 140px;
+    }
+    .openAns2 {
+        height: 170px;
+    }
+    .openAns3 {
+        height: 100px;
+    }
+    .openAns4 {
+        height: 150px;
+    }
+
     .content_excelent_card {
         width: 90%;
         flex-direction: row;

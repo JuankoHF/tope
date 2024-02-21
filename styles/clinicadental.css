@@ -1592,6 +1592,10 @@ footer {
     }
     .clinic_service h2 {
         font-size: 3.2rem;
+        margin-bottom: 28px;
+    }
+    .servis_description {
+        max-width: 800px;
         margin-bottom: 48px;
     }
     .content_card_service {
@@ -1627,6 +1631,65 @@ footer {
         align-items: flex-start;
         gap: 60px;
     }
+
+    .special_and_download {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 40px 10% 60px;
+    }
+    .special_agency {
+        width: 100%;
+        max-width: 700px;
+        padding-top: 20px;
+    }
+    .special_agency h2 {
+        font-size: 3.2rem;
+        margin-bottom: 16px;
+    }
+    .dowbload_pdf {
+        width: 80%;
+        max-width: 530px;
+        padding: 20px 0 30px;
+    }
+    .card_download {
+        height: 530px;
+        border-radius: 12px;
+    }
+    .marketing_reference h2 {
+        font-size: 3.2rem;
+        margin-bottom: 12px;
+    }
+    .marketing_reference p {
+        margin-bottom: 24px;
+    }
+    .clinic_questions_answers {
+        padding: 40px 40px;
+        margin-bottom: 24px;
+    }
+    .questions p {
+        margin: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .answers1 p, .answers2 p, .answers3 p, .answers4 p {
+        margin: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .openAns1 {
+        height: 210px;
+    }
+    .openAns2 {
+        height: 250px;
+    }
+    .openAns3 {
+        height: 120px;
+    }
+    .openAns4 {
+        height: 180px;
+    }
+
     .marketing_advanced {
         padding: 70px 0 70px;
     }
@@ -1718,8 +1781,13 @@ footer {
     .clinic_service h2 {
         font-size: 4rem;
         letter-spacing: 1.4px;
+        margin-bottom: 32px;
+    }
+    .servis_description {
+        font-size: 2.4rem;
         margin-bottom: 60px;
     }
+
     .content_card_service {
         gap: 80px;
         max-width: 1500px;
@@ -1887,6 +1955,91 @@ footer {
         color: var(--secundary-color);
         transform: translateX(30%);
     }
+
+    .special_and_download {
+        padding: 80px 10% 80px;
+    }
+
+    .special_agency {
+        max-width: 800px;
+    }
+    .special_agency h2 {
+        font-size: 4rem;
+        letter-spacing: 1.4px;
+        margin-bottom: 24px;
+    }
+    .special_agency p {
+        font-size: 2.4rem;
+        text-align: justify;
+    }
+    .dowbload_pdf {
+        width: 80%;
+        max-width: 600px;
+    }
+    .card_download {
+        width: 85%;
+        max-width: 580px;
+        height: 600px;
+        padding: 48px 40px;
+    }
+    .card_download p {
+        font-size: 2.4rem;
+        margin-bottom: 12px;
+    }
+    .card_download h2 {
+        font-size: 3rem;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    .marketing_reference {
+        padding: 80px 0;
+    }
+    .marketing_reference h2 {
+        font-size: 4rem;
+        letter-spacing: 1.4px;
+        margin-bottom: 24px;
+        max-width: 700px;
+    }
+    .marketing_reference p {
+        font-size: 2.4rem;
+        margin-bottom: 48px;
+        max-width: 700px;
+    }
+    .clinic_questions_answers {
+        max-width: 1200px;
+        padding: 60px 48px;
+        margin-bottom: 48px;
+        gap: 16px;
+    }
+    .questions span {
+        width: 36px;
+        height: 36px;
+    }
+    .questions p {
+        margin: 0px;
+        width: 100%;
+        max-width: 100%;
+        font-size: 2.4rem;
+    }
+    .answers1 p, .answers2 p, .answers3 p, .answers4 p {
+        margin: 0px;
+        width: 100%;
+        max-width: 100%;
+        text-align: justify;
+    }
+    .openAns1 {
+        height: 270px;
+    }
+    .openAns2 {
+        height: 350px;
+    }
+    .openAns3 {
+        height: 176px;
+    }
+    .openAns4 {
+        height: 220px;
+    }
+
     .marketing_advanced {
         padding: 80px 0;
     }

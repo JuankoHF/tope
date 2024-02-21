@@ -103,6 +103,80 @@
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+
+.content_button_download_dossier {
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.content_button_download_dossier p {
+    font-size: 1.8rem;
+    color: var(--white-page);
+    text-align: center;
+}
+.button_dowload {
+    text-decoration: none;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #17795E;
+    background-color: var(--secundary-color);
+    overflow: hidden;
+}
+  
+.button_dowload, .button__icon, .button__text {
+    transition: all 0.3s;
+    text-decoration: none;
+}
+  
+.button_dowload .button__text {
+    transform: translateX(40px);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+  
+.button_dowload .button__icon {
+    position: absolute;
+    transform: translateX(150px);
+    height: 100%;
+    width: 50px;
+    background-color: var(--section-clear);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.button_dowload .svg {
+    width: 20px;
+    fill: #fff;
+}  
+.button_dowload:hover {
+    background: var(--clinicas-primary);
+}
+.button_dowload:hover .button__text {
+    color: transparent;
+}
+  
+.button_dowload:hover .button__icon {
+    width: 200px;
+    transform: translateX(0);
+}
+  
+.button_dowload:active .button__icon {
+    background-color: var(--secundary-color);
+}
+.button_dowload:active {
+    border: 1px solid var(--secundary-color);
+}
+
   
 .footer_contact{
     width: 100%;

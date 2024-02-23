@@ -10,16 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Montserrat:ital,wght@0,100;0,400;0,600;1,200&family=Roboto+Slab:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://topedigital.com/styles/global.css?15022024">
     <link rel="stylesheet" href="https://topedigital.com/styles/initial_landing.css?22012024">
-    <link rel="stylesheet" href="https://topedigital.com/styles/clinicadental.css?09022024">
+    <link rel="stylesheet" href="https://topedigital.com/styles/clinicadental.css?22022024">
     <link rel="stylesheet" href="https://topedigital.com/styles/contact.css?22012024">
     <link rel="stylesheet" href="https://topedigital.com/styles/style-cookies.css?09022024">
     <link rel="stylesheet" href="https://topedigital.com/styles/contact.css?22012024">
     <link rel="stylesheet" href="https://topedigital.com/styles/estrategias-mktg.css?19022024">
+    <!-- <link rel="stylesheet" href="../../styles/clinicadental.css"> -->
     <title>Estrategias de Marketing Dental</title>
 </head>
 <body>
     <main>
-        <a target="_blank" href="https://wa.me/34626708613" class="link_whatsapp visibleWhatsapp"><span></span></a>
+        <!-- <a target="_blank" href="https://wa.me/34626708613" class="link_whatsapp visibleWhatsapp"><span></span></a>
         <div class="wrapper">
             <img src="https://topedigital.com/icons/cookie.png" alt="cookie">
             <div class="content_text_cookies">
@@ -33,7 +34,7 @@
                 <a href="https://topedigital.com/pages/legal.html" class="item">Leer sobre cookies</a>
               </div>
             </div>
-        </div>
+        </div> -->
         <section class="form_clinic" id="clinic">
             </br>
             <div class="header_form_clinic">
@@ -62,14 +63,32 @@
                         <span>Email</span>
                     </label> 
                         
-                    <label>
+                    <div class="check_term1">
+                        <div class="cntr">
+                            <input type="checkbox" id="cbx1" class="hidden-xs-up" name="webSite" >
+                            <label for="cbx1" class="cbx1"></label>
+                        </div>
+                        <div class="go_temn">
+                            <p>¿Necesitas una WEB o servicos relacionados?</p>
+                        </div>
+                    </div>
+                    <div class="check_term1">
+                        <div class="cntr">
+                            <input type="checkbox" id="cbx2" class="hidden-xs-up" name="message" >
+                            <label for="cbx2" class="cbx2"></label>
+                        </div>
+                        <div class="go_temn">
+                            <p>¿Necesitas ayuda con tus redes sociales?</p>
+                        </div>
+                    </div>
+                    <!-- <label>
                         <input type="text" placeholder="" class="input" name="webSite">
                         <span>Página web (si ya tiene una)</span>
                     </label>
                     <label>
                         <textarea rows="3" placeholder="" class="input01" name="message"></textarea>
                         <span>¿Tienes alguna consulta?</span>
-                    </label>
+                    </label> -->
                     <div class="check_term">
                         <div class="cntr">
                             <input type="checkbox" id="cbx" class="hidden-xs-up" name="checkbox" required>
@@ -149,7 +168,7 @@
     </main>
 
 
-    <script>
+    <!-- <script>
         const cookieBox = document.querySelector(".wrapper"),
         acceptBtn = cookieBox.querySelector("button");
     
@@ -165,7 +184,7 @@
         let checkCookie = document.cookie.indexOf("CookieBy=TOPEdigital"); //checking our cookie
         //if cookie is set then hide the cookie box else show it
         checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
-    </script>
+    </script> -->
 
     <script>
        const btn = document.getElementById('button');

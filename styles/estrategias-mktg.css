@@ -5,9 +5,16 @@
     letter-spacing: 0.6px;
     text-align: center;
     color: var(--clinicas-primary);
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
-
+.header_form_clinic img {
+    width: 100%;
+    max-width: 350px;
+    height: 96px;
+    display: flex;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
 
 .disabled_button {
     width: 250px;
@@ -18,11 +25,11 @@
     justify-content: center;
     align-items: center;
     border: 1px solid var(--section-dark);
-    background-color: #898b8d;
+    background-color: var(--secundary-color);
     overflow: hidden;
 }
 .disabled_button p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: black;
     text-align: center;
     margin-bottom: 8px;
@@ -30,6 +37,7 @@
 .disabled_button span {
     font-size: 1.6rem;
     color: black;
+    font-weight: bold;
 }
 .not_visible {
     display: none;
@@ -162,7 +170,7 @@
     }
     .link_actions p {
         max-width: 1000px;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         margin-bottom: 60px;
         text-align: justify;
     }

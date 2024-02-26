@@ -13,6 +13,13 @@
 .nav_item_menu_pages {
     display: none;
 }
+.content_bars {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .content_item_plans_menu {
     width: 200px;
     height: auto;

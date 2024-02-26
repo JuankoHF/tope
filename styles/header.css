@@ -1,7 +1,7 @@
 @import './global.css';
 
 .header_content {
-    width: 80%;
+    width: 85%;
     max-width: 900px;
     height: 60px;
     display: flex;
@@ -14,7 +14,7 @@
     width: auto;
     height: 60px;
     display: flex;
-    gap: 12px;
+    gap: 8px;
     align-items: center;
    
 }
@@ -27,7 +27,7 @@
 .header_left p {
     font-family: 'Bruno Ace', sans-serif;
     font-size: 2rem;
-    letter-spacing: 1.6px;
+    letter-spacing: 1px;
     color: var(--white-page);
 }
 
@@ -51,8 +51,9 @@
     padding: 4px 12px;
     border: solid 2px var(--primary-color);
     border-radius: 8px;
-    font-size: 1rem;
-    letter-spacing: 1.2px;
+    font-family: 'Bruno Ace', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 1.4px;
     transition: all 0.5s ease-in-out;
 }
 .contact_addedt_menu {

@@ -17,7 +17,7 @@ window.addEventListener('scroll', function() {
 
     let animateScroledStop = document.getElementById('scroledStop');
     let positionScroledStop = animateScroledStop.getBoundingClientRect().top;
-    let navIdentityScroll = document.querySelector(".nav_identity");
+    // let navIdentityScroll = document.querySelector(".nav_identity");
     let identityRight = document.querySelector(".nav_identity_right");
     let identiyLeft = document.querySelector(".nav_identity_left");
     let butonContact = document.querySelector(".buton_contact");
@@ -48,19 +48,20 @@ window.addEventListener('scroll', function() {
     let list11 = document.querySelector(".list11");
     let list12 = document.querySelector(".list12");
 
-
+    console.log(positionhome);
+    console.log(scrollTop, "stop")
     if(positionScroledStop <= 60) {
-        navIdentityScroll.classList.add("fixed_nav_identity");
+        // navIdentityScroll.classList.add("fixed_nav_identity");
         identityRight.classList.add("space_item");
-        identiyLeft.classList.add("blog_addedt")
+        // identiyLeft.classList.add("blog_addedt")
         butonContact.classList.add("contact_addedt_menu");
         contentItem.classList.add("fixed_content_item")
     }
 
     if(positionScroledStop > 61) {
-        navIdentityScroll.classList.remove("fixed_nav_identity");
+        // navIdentityScroll.classList.remove("fixed_nav_identity");
         identityRight.classList.remove("space_item");
-        identiyLeft.classList.remove("blog_addedt")
+        // identiyLeft.classList.remove("blog_addedt")
         butonContact.classList.remove("contact_addedt_menu");
         contentItem.classList.remove("fixed_content_item")
 

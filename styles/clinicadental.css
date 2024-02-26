@@ -285,6 +285,10 @@ header {
     border-radius: 14px;
     background-color: var(--secundary-color);
 }
+.text_marketing a:hover, .contac_section_advanced a:hover {
+    background-color: var(--clinicas-primary);
+    transition: all 0.4s ease-in-out;
+}
 .image_dentist, .Flex_image_form {
     width: 80%;
     max-width: 400px;
@@ -387,6 +391,10 @@ header {
     background-color: var(--secundary-color);
     border-radius: 12px;
     
+}
+.card_clinic_service a:hover {
+    background-color: var(--clinicas-primary);
+    transition: all 0.4s ease-in-out;
 }
 .card_clinic_service a span {
     display: block;
@@ -954,6 +962,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 
 }
 .questions span {

@@ -57,6 +57,16 @@
     background-position: center;
     padding: 12px 20px;
 }
+.marketing_clinic_baner {
+    width: 90%;
+    max-width: 900px;
+    height: 130px;
+    background-image: url(../blog/image/baner_clinica_dig.webp);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
 .router_baner h2 {
     font-size: 1.6rem;
     color: black;
@@ -281,6 +291,10 @@
         padding: 24px 20px;
     }
 
+    .marketing_clinic_baner {
+        height: 160px;
+        margin-bottom: 20px;
+    }
     .header_exposition {
         width: 80%;
     }
@@ -318,6 +332,10 @@
     .router_baner {
         height: 260px;
         padding: 36px 40px;
+    }
+    .marketing_clinic_baner {
+        height: 260px;
+        margin-bottom: 32px;
     }
     .router_baner h2 {
         font-size: 2.6rem;
@@ -414,6 +432,9 @@
         height: 200px;
         padding: 16px 12px;
     }
+    .marketing_clinic_baner {
+        height: 240px;
+    }
     .router_baner h2 {
         font-size: 2rem;
         color: black;
@@ -472,6 +493,11 @@
         padding: 36px 80px;
     }
 
+    .marketing_clinic_baner {
+        height: 330px;
+        margin-bottom: 32px;
+    }
+    
     .router_baner h2 {
         font-size: 2.8rem;
         letter-spacing: 1.2px;

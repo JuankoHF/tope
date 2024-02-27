@@ -13,6 +13,13 @@
 .nav_item_menu_pages {
     display: none;
 }
+.content_bars {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .content_item_plans_menu {
     width: 200px;
     height: auto;
@@ -161,6 +168,9 @@ body {
     .content_item_plans_menu {
         display: none;
     }
+    .content_bars, .content_item_menu {
+        display: none;
+    }
     .nav_identity_pages a {
         width: 18px;
         height: 18px;
@@ -178,6 +188,7 @@ body {
         width: auto;
         height: 100%;
         display: flex;
+        align-items: center;
         flex-wrap: nowrap;
         gap: 4px;
         color: var(--white-page);

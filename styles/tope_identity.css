@@ -12,12 +12,14 @@
 
 .nav_identity {
     width: 100vw;
-    height: 40px;
-    position: relative;
+    height: 60px;
+    position: fixed;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding-left: 10%;
+    background-color: black;
+    z-index: 100;
     
 }
 
@@ -93,7 +95,7 @@
 }
 .content_bars {
     width: 60px;
-    height: 40px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,8 +114,8 @@
 .content_item_menu {
     width: 200px;
     height: auto;
-    position: absolute;
-    top: 40px;
+    position: fixed;
+    bottom: 60px;
     right: 0;
     background-color: var(--white-page);
     display: flex;
@@ -122,9 +124,9 @@
     align-items: flex-start;
     padding: 20px 0 20px 16px;
     gap: 8px;
-    z-index: 8;
-    border-radius: 0 0 0 12px;
-    clip-path: inset(0 0 100% 0);
+    z-index: 10;
+    border-radius: 12px 0 0 0 ;
+    clip-path: inset(100% 0 0  0);
     transition: clip-path 0.3s ease-in-out;
 }
 
@@ -135,7 +137,7 @@
 
 .fixed_content_item {
     position: fixed;
-    top: 100px;
+    /* top: 100px; */
 }
 .active_back_icon {
     background-color: var(--white-page);
@@ -411,7 +413,10 @@
 @media screen and (min-width: 1200px) {
    
     .nav_identity {
-        padding-left: 15%;
+        top: 60px;
+        height: 40px;
+        justify-content: center;
+        padding-left: 0px;
     }
     .content_bars, .content_item_menu {
         display: none;
@@ -423,7 +428,7 @@
         justify-content: flex-end;
         align-items: flex-end;
         gap: 20px;
-        padding: 0 40px 0 80px;
+        padding: 0 0px 0 80px;
     }
     .list {
         width: auto;
@@ -518,6 +523,10 @@
     }
     .item_menu {
         font-size: 2.2rem;
+    }
+    .list {
+        width: auto;
+        height: 100%;
     }
     .content_tope_description {
         margin-top: 100px;

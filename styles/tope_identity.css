@@ -413,7 +413,10 @@
 @media screen and (min-width: 1200px) {
    
     .nav_identity {
-        padding-left: 15%;
+        top: 60px;
+        height: 40px;
+        justify-content: center;
+        padding-left: 0px;
     }
     .content_bars, .content_item_menu {
         display: none;
@@ -425,7 +428,7 @@
         justify-content: flex-end;
         align-items: flex-end;
         gap: 20px;
-        padding: 0 40px 0 80px;
+        padding: 0 0px 0 80px;
     }
     .list {
         width: auto;
@@ -520,6 +523,10 @@
     }
     .item_menu {
         font-size: 2.2rem;
+    }
+    .list {
+        width: auto;
+        height: 100%;
     }
     .content_tope_description {
         margin-top: 100px;

@@ -168,6 +168,9 @@ body {
     .content_item_plans_menu {
         display: none;
     }
+    .content_bars, .content_item_menu {
+        display: none;
+    }
     .nav_identity_pages a {
         width: 18px;
         height: 18px;
@@ -185,6 +188,7 @@ body {
         width: auto;
         height: 100%;
         display: flex;
+        align-items: center;
         flex-wrap: nowrap;
         gap: 4px;
         color: var(--white-page);

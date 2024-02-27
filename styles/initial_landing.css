@@ -294,7 +294,7 @@
         
     }
     .link_whatsapp {
-        bottom: 4vh;
+        bottom: 8vh;
         right: 6vw;
     }
     .visibleWhatsapp {
@@ -345,7 +345,7 @@
         letter-spacing: 1.2px;
     }
     .link_whatsapp {
-        bottom: 6vh;
+        bottom: 18vh;
         right: 4vw;
     }
     
@@ -369,6 +369,10 @@
     
 }
 @media screen and (min-width: 1200px) {
+    .initial_landing {
+        width: 100vw;
+        height: 100vh;
+    }
     .footer_initial_landing {
         gap: 32px;
         padding: 16px 0 40px;

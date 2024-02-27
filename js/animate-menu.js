@@ -48,8 +48,6 @@ window.addEventListener('scroll', function() {
     let list11 = document.querySelector(".list11");
     let list12 = document.querySelector(".list12");
 
-    console.log(positionhome);
-    console.log(scrollTop, "stop")
     if(positionScroledStop <= 60) {
         // navIdentityScroll.classList.add("fixed_nav_identity");
         identityRight.classList.add("space_item");

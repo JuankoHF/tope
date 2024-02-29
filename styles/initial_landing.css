@@ -171,7 +171,46 @@
     border: solid 2px var(--primary-color);
     border-left: none;
     border-radius: 0 20px 20px 0;
+    animation: intermitent 10s infinite linear;
 }   
+
+@keyframes intermitent {
+    0%{border: solid 2px var(--primary-color);
+        border-left: none;
+    }
+    20%{border: solid 2px var(--primary-color);
+    border-left: none
+    }
+    
+    30%{border: solid 1px var(--tertiary-color);
+    border-left: none
+    }
+    40%{border: solid 3px var(--tertiary-color);
+    border-left: none
+    }
+
+    50%{border: solid 1px var(--primary-color);
+    border-left: none
+    }
+    60%{border: solid 3px var(--primary-color);
+    border-left: none
+    }
+
+    70%{border: solid 1px var(--tertiary-color);
+    border-left: none
+    }
+    80%{border: solid 3px var(--tertiary-color);
+    border-left: none
+    }
+
+    90%{border: solid 1px var(--primary-color);
+    border-left: none
+    }
+    100%{border: solid 2px var(--primary-color);
+    border-left: none
+    }
+    
+}
 
 .get_budget a {
     text-decoration: none;

@@ -47,24 +47,26 @@
     margin: 24px 0;
 }
 
-.router_baner {
+.router_baner, .marketing_clinic_baner,
+.marketing_plan_baner {
     width: 90%;
     max-width: 900px;
     height: 130px;
-    background-image: url(../images/router-baner-intro.jpg);
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
     padding: 12px 20px;
 }
+.router_baner {
+    background-image: url(../images/router-baner-intro.jpg);
+
+}
 .marketing_clinic_baner {
-    width: 90%;
-    max-width: 900px;
-    height: 130px;
     background-image: url(../blog/image/baner_clinica_dig.webp);
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
+    margin-bottom: 20px;
+}
+.marketing_plan_baner {
+    background-image: url(../images/strategy-to-step.jpg);
     margin-bottom: 20px;
 }
 .router_baner h2 {
@@ -295,6 +297,10 @@
         height: 160px;
         margin-bottom: 20px;
     }
+    .marketing_plan_baner {
+        height: 160px;
+        margin-bottom: 20px;
+    }
     .header_exposition {
         width: 80%;
     }
@@ -334,6 +340,10 @@
         padding: 36px 40px;
     }
     .marketing_clinic_baner {
+        height: 260px;
+        margin-bottom: 32px;
+    }
+    .marketing_plan_baner {
         height: 260px;
         margin-bottom: 32px;
     }
@@ -435,6 +445,9 @@
     .marketing_clinic_baner {
         height: 240px;
     }
+    .marketing_plan_baner {
+        height: 240px;
+    }
     .router_baner h2 {
         font-size: 2rem;
         color: black;
@@ -497,7 +510,10 @@
         height: 330px;
         margin-bottom: 32px;
     }
-    
+    .marketing_plan_baner {
+        height: 330px;
+        margin-bottom: 32px;
+    }
     .router_baner h2 {
         font-size: 2.8rem;
         letter-spacing: 1.2px;

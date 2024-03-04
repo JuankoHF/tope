@@ -1,0 +1,522 @@
+@import './global.css';
+
+.header_form_clinic h3 {
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: var(--clinicas-primary);
+    margin-bottom: 12px;
+}
+
+
+.content_service_option {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px 0;
+}
+.content_service_option span {
+    font-size: 1.6rem;
+    color: var(--secundary-color);
+    font-weight: 600;
+}
+
+.cbc1 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc1:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc1:checked ~ .cbc1 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc1:checked ~ .cbc1:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc2 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc2:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc2:checked ~ .cbc2 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc2:checked ~ .cbc2:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc3 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc3:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc3:checked ~ .cbc3 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc3:checked ~ .cbc3:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc4 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc4:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc4:checked ~ .cbc4 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc4:checked ~ .cbc4:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc5 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc5:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc5:checked ~ .cbc5 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc5:checked ~ .cbc5:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc6 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc6:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc6:checked ~ .cbc6 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc6:checked ~ .cbc6:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc7 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc7:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc7:checked ~ .cbc7 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc7:checked ~ .cbc7:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc8 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc8:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc8:checked ~ .cbc8 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc8:checked ~ .cbc8:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc9 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc9:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc9:checked ~ .cbc9 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc9:checked ~ .cbc9:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc10 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc10:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc10:checked ~ .cbc10 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc10:checked ~ .cbc10:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc11 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc11:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc11:checked ~ .cbc11 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc11:checked ~ .cbc11:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.cbc12 {
+    position: relative;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c8ccd4;
+    border-radius: 3px;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    display: block;
+}
+.cbc12:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 4px;
+    height: 7px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+#cbc12:checked ~ .cbc12 {
+    border-color: transparent;
+    background: var(--secundary-color);
+    animation: jelly 0.6s ease;
+}
+#cbc12:checked ~ .cbc12:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+
+
+.link_actions {
+    width: 100vw;
+    height: auto;
+    background-color: var(--clinicas-primary);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content_link_action {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content_link_action h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 0.4px;
+    color: var(--white-page);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.content_link_action a {
+    text-decoration: none;
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: var(--white-page);
+    font-weight: bold;
+    background-color: var(--secundary-color);
+    margin-bottom: 28px;
+    border-radius: 16px;
+}
+@media screen and (min-width: 1200px) {
+    .header_form_clinic h3 {
+        font-size: 2.6rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 28px;
+    }
+    .link_actions {
+        padding-top: 60px;
+    }
+    .link_actions h2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.8px;
+        margin-bottom: 40px;
+    }
+    .link_actions p {
+        max-width: 1000px;
+        font-size: 1.8rem;
+        margin-bottom: 60px;
+        text-align: justify;
+    }
+    .content_link_action h3 {
+        text-align: center;
+        font-size: 2.2rem;
+        letter-spacing: 0.6px;
+        margin-bottom: 40px;
+    }
+    .content_link_action a {
+        width: 240px;
+        height: 48px;
+        font-size: 2rem;
+        margin-bottom: 36px;
+        border-radius: 20px;
+    }
+}

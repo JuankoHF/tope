@@ -495,17 +495,6 @@
     .link_actions {
         padding-top: 60px;
     }
-    .link_actions h2 {
-        font-size: 2.6rem;
-        letter-spacing: 0.8px;
-        margin-bottom: 40px;
-    }
-    .link_actions p {
-        max-width: 1000px;
-        font-size: 1.8rem;
-        margin-bottom: 60px;
-        text-align: justify;
-    }
     .content_link_action h3 {
         text-align: center;
         font-size: 2.2rem;
@@ -518,5 +507,35 @@
         font-size: 2rem;
         margin-bottom: 36px;
         border-radius: 20px;
+    }
+}
+@media screen and (min-width: 1900px) {
+    
+    .cbc1, .cbc2, .cbc3, .cbc4, .cbc5, .cbc6,
+    .cbc7, .cbc8, .cbc9, .cbc10, .cbc11, .cbc12{
+        position: relative;
+        top: 1px;
+        width: 24px;
+        height: 24px;
+        border: 2px solid #c8ccd4;
+        border-radius: 3px;
+        transition: background 0.1s ease;
+        cursor: pointer;
+        display: block;
+    }
+    .cbc1:after, .cbc2:after, .cbc3:after, .cbc4:after, .cbc5:after, .cbc6:after,
+    .cbc7:after, .cbc8:after, .cbc9:after, .cbc10:after, .cbc11:after, .cbc12:after {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        width: 6px;
+        height: 12px;
+        opacity: 0;
+        transform: rotate(45deg) scale(0);
+        border-right: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        transition: all 0.3s ease;
+        transition-delay: 0.15s;
     }
 }

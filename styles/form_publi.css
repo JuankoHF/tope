@@ -1,9 +1,26 @@
 @import './global.css';
 
+.content_form h2 {
+    text-align: center;
+}
 .content_form img {
     width: 100%;
     height: auto;
     object-fit: cover;
     object-position: center;
     margin: 20px 0;
+}
+
+.content_form h3 {
+    font-size: 1.2rem;
+    color: var(--white-page);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+@media screen and (min-width: 700px) and (min-height: 510px) {
+    .content_form h3 {
+        font-size: 1.6rem;
+        margin-bottom: 40px;
+    }
 }

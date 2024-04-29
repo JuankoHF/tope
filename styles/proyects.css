@@ -194,6 +194,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+        gap: 32px;
     }
     .content_proyects {
         width: 300px;
@@ -270,10 +271,14 @@
         letter-spacing: 1.8px;
     }
     .content_proyects_description {
-        gap: 20px;
+        gap: 40px;
+        max-width: 1200px;
+        flex-direction: column;
     }
     .content_proyects {
-        width: 350px;
+        flex-direction: row;
+        width: 100%;
+        gap: 40px;
     }
     .content_image_proyect {
         height: 150px;
@@ -292,8 +297,10 @@
         font-size: 1.6rem;
     }
     .content_blogs {
-        width: 350px;
+        width: 1200px;
         gap: 14px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     .card_blog {
         height: 175px;

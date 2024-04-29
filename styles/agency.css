@@ -10,6 +10,9 @@
     gap: 8px;
     transition: all 0.5s ease-in-out;
 }
+.nav_identity_pages .content_bars {
+    height: 40px;
+}
 .nav_item_menu_pages {
     display: none;
 }

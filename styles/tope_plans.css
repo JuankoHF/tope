@@ -102,19 +102,20 @@
 .seo_card .description_contaimer, .ads_card .description_contaimer,
 .media_card .description_contaimer, .web_card .description_contaimer {
     width: 100%;
-    height: 150px;
+    height: 110px;
     padding: 20px 16px 0;
     align-items: center;
 }
 .seo_card .description_contaimer h3, .ads_card .description_contaimer h3,
 .media_card .description_contaimer h3, .web_card .description_contaimer h3 {
-   font-size: 2rem;
+   font-size: 1.8rem;
    text-align: center;
+   margin-bottom: 0px;
 }
 
 .seo_card .description_contaimer p, .ads_card .description_contaimer p,
 .media_card .description_contaimer p, .web_card .description_contaimer p {
-   font-size: 1.6rem;
+   font-size: 1.2rem;
 }
 .seo_card .description_card, .ads_card .description_card,
 .media_card .description_card, .web_card .description_card {
@@ -262,6 +263,9 @@
     .header_plans_right {
         padding: 20px 16px 0 46px;
     }
+    .card_plan {
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 700px) and (min-height: 510px){
@@ -311,8 +315,20 @@
     .description_contaimer h3 {
         font-size: 2rem;
     }
+    .seo_card .description_contaimer h3,
+    .ads_card .description_contaimer h3, 
+    .media_card .description_contaimer h3, 
+    .web_card .description_contaimer h3 {
+        font-size: 2.2rem;
+    }
     .description_contaimer p {
         font-size: 1.4rem;
+    }
+    .seo_card .description_contaimer p, 
+    .ads_card .description_contaimer p, 
+    .media_card .description_contaimer p, 
+    .web_card .description_contaimer p {
+        font-size: 1.6rem;
     }
     .description_contaimer h2 {
         font-size: 2rem;
@@ -405,7 +421,7 @@
     .ads_card .description_contaimer, 
     .media_card .description_contaimer, 
     .web_card .description_contaimer {
-        height: 170px;
+        height: 150px;
     }
 }
 @media screen and (min-width: 1000px) {
@@ -514,7 +530,7 @@
     }
 
     .description_chequed p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .seo_card .description_contaimer, 
     .ads_card .description_contaimer, 
